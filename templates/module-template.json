@@ -1,0 +1,53 @@
+{
+  "_comment": "TigyWigy standard module design template. Copy and fill in each field for a new module.",
+  "id": "REGION-XXX",
+  "title": "Module Title (clear, action-oriented)",
+  "region": "north-america | south-america | europe | africa | middle-east | asia-pacific | global",
+  "category": "leadership | technical | compliance | dei | digital | communication | health-safety | cultural | sales | finance",
+  "level": "Foundational | Intermediate | Advanced",
+  "duration": "X hours",
+  "format": ["eLearning", "Virtual Classroom", "Workshop", "Coaching", "Blended Learning"],
+  "languages": ["English"],
+  "description": "One paragraph (3-4 sentences) describing the module: what it covers, who it's for, and the key problem it solves.",
+  "learningObjectives": [
+    "Objective 1 — written with a Bloom's Taxonomy action verb (e.g. Apply, Identify, Analyse, Evaluate)",
+    "Objective 2",
+    "Objective 3",
+    "Objective 4"
+  ],
+  "audience": "Specific role / function (e.g. 'All managers in EMEA', 'HR Business Partners')",
+  "prerequisites": ["Module Title if required, or empty array"],
+  "assessmentType": "Description of how learners are assessed (e.g. 'Scenario-based quiz with 80% pass mark')",
+  "certification": false,
+  "countries": ["Country Name"],
+  "moduleDesign": {
+    "estimatedDevelopmentDays": 0,
+    "numberOfLearningObjects": 0,
+    "interactivityLevel": "Level 1 (linear) | Level 2 (branching) | Level 3 (simulations) | Level 4 (games)",
+    "mediaElements": ["Video", "Audio", "Infographics", "Animations", "Scenario Simulations"],
+    "lmsCompatibility": ["SCORM 2004", "xAPI"],
+    "accessibilityStandard": "WCAG 2.1 AA",
+    "rtlSupport": false
+  },
+  "bloomsLevels": {
+    "remember": false,
+    "understand": false,
+    "apply": true,
+    "analyse": false,
+    "evaluate": false,
+    "create": false
+  },
+  "kirkpatrickEvaluation": {
+    "level1Reaction": "Post-module survey (NPS + open comments)",
+    "level2Learning": "Pre/post knowledge assessment",
+    "level3Behaviour": "Manager observation checklist at 30/60/90 days",
+    "level4Results": "Business KPI linked to learning outcome"
+  },
+  "localisationNotes": "Any specific cultural, legal, or linguistic considerations for this module's region.",
+  "subjectMatterExperts": ["SME Name / Organisation"],
+  "contentOwner": "L&D Team / Business Unit",
+  "reviewCycle": "Annual | Biennial | Triggered by regulatory change",
+  "lastReviewed": "YYYY-MM-DD",
+  "nextReview": "YYYY-MM-DD",
+  "version": "1.0"
+}

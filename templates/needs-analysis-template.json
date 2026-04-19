@@ -1,0 +1,81 @@
+{
+  "_comment": "TigyWigy Learning Needs Analysis (LNA) template — complete before designing any new module or pathway.",
+  "lnaId": "LNA-001",
+  "date": "YYYY-MM-DD",
+  "analyst": "Name / L&D Team",
+  "requestedBy": "Stakeholder Name / Business Unit",
+
+  "businessContext": {
+    "businessProblem": "What business challenge or opportunity is driving this request?",
+    "strategicAlignment": "How does this learning need connect to organizational strategy?",
+    "urgency": "Low | Medium | High | Critical",
+    "regulatoryDriver": false,
+    "regulatoryDetails": "If yes, which regulation and what is the compliance deadline?"
+  },
+
+  "currentState": {
+    "currentPerformanceLevel": "Description of current employee capability/performance",
+    "evidenceOfGap": ["Data point 1 (e.g. audit finding)", "Data point 2 (e.g. incident rate)", "Data point 3 (e.g. survey result)"],
+    "rootCauseAnalysis": {
+      "knowledgeGap": true,
+      "skillGap": false,
+      "attitudeGap": false,
+      "environmentalBarrier": false,
+      "processGap": false,
+      "notes": "Describe root causes in detail"
+    }
+  },
+
+  "desiredState": {
+    "targetPerformanceLevel": "Description of what employees should be able to do after learning",
+    "measurableOutcomes": ["Observable behaviour 1", "Observable behaviour 2"],
+    "successMetrics": ["KPI 1", "KPI 2"],
+    "timeframeForChange": "Expected time to see behaviour change post-training"
+  },
+
+  "audience": {
+    "totalHeadcount": 0,
+    "roles": ["Role 1", "Role 2"],
+    "regions": ["Region 1", "Region 2"],
+    "languages": ["English"],
+    "digitalLiteracyLevel": "Low | Medium | High",
+    "averageLearningHoursAvailable": "X hours per month",
+    "accessToTechnology": "Computer + LMS | Mobile only | Limited connectivity",
+    "specialConsiderations": "Any accessibility, cultural, or logistical factors"
+  },
+
+  "solutionRecommendation": {
+    "learningIsRecommended": true,
+    "nonLearningInterventions": ["Process change", "Tools/resources", "Manager coaching"],
+    "recommendedFormat": "eLearning | Workshop | Virtual Classroom | Blended | Coaching | OJT",
+    "estimatedDuration": "X hours",
+    "estimatedDevelopmentTime": "X weeks",
+    "priority": "P1 (Urgent) | P2 (High) | P3 (Medium) | P4 (Low)",
+    "buildOrBuy": "Build | Buy | Adapt existing content",
+    "rationale": "Explanation of recommendation"
+  },
+
+  "stakeholderValidation": {
+    "businessSponsor": { "name": "", "approval": false, "date": "" },
+    "hrBusinessPartner": { "name": "", "approval": false, "date": "" },
+    "subjectMatterExpert": { "name": "", "approval": false, "date": "" },
+    "ldLead": { "name": "", "approval": false, "date": "" }
+  },
+
+  "constraints": {
+    "budgetAvailable": "TBC",
+    "deadline": "YYYY-MM-DD",
+    "existingContentToLeverage": "List any existing training, policies, or resources",
+    "technologyConstraints": "LMS version, authoring tool limitations, etc.",
+    "otherConstraints": ""
+  },
+
+  "nextSteps": [
+    "Step 1: Schedule SME interviews",
+    "Step 2: Draft learning objectives",
+    "Step 3: Present solution design to sponsor"
+  ],
+
+  "status": "Draft | Approved | In Progress | Complete",
+  "version": "1.0"
+}

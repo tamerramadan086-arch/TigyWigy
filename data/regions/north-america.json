@@ -1,0 +1,384 @@
+{
+  "region": "North America",
+  "regionId": "north-america",
+  "modules": [
+    {
+      "id": "na-001",
+      "title": "Inclusive Leadership in North America",
+      "category": "leadership",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning", "Virtual Classroom"],
+      "languages": ["English", "French", "Spanish"],
+      "description": "Develop leadership skills tailored to North America's diverse, multicultural workforce. Covers psychological safety, allyship, and equitable team management.",
+      "learningObjectives": [
+        "Identify key dimensions of inclusive leadership in North American contexts",
+        "Apply frameworks for building psychologically safe teams",
+        "Develop personal allyship action plans",
+        "Navigate cross-cultural communication in US, Canadian, and Mexican work environments"
+      ],
+      "audience": "Mid-level managers and team leads",
+      "prerequisites": ["Basic Management Fundamentals"],
+      "assessmentType": "Scenario-based quiz + reflection journal",
+      "certification": true,
+      "countries": ["United States", "Canada", "Mexico"]
+    },
+    {
+      "id": "na-002",
+      "title": "US Employment Law & HR Compliance",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English"],
+      "description": "Essential compliance training covering EEOC regulations, ADA, FMLA, Title VII, and state-specific labor laws for US-based employees and managers.",
+      "learningObjectives": [
+        "Understand federal and state employment laws",
+        "Recognize and prevent workplace discrimination and harassment",
+        "Navigate accommodation requests under ADA",
+        "Manage FMLA leave appropriately"
+      ],
+      "audience": "All US employees; required for managers",
+      "prerequisites": [],
+      "assessmentType": "Regulatory knowledge test (80% pass mark)",
+      "certification": true,
+      "countries": ["United States"]
+    },
+    {
+      "id": "na-003",
+      "title": "Canadian Workplace Human Rights",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "2.5 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "French"],
+      "description": "Compliance training aligned with Canadian Human Rights Act, provincial human rights codes, and AODA (Accessibility for Ontarians with Disabilities Act).",
+      "learningObjectives": [
+        "Understand the Canadian Human Rights Act and provincial codes",
+        "Identify protected grounds of discrimination",
+        "Fulfill duty-to-accommodate obligations",
+        "Report and respond to harassment incidents"
+      ],
+      "audience": "All Canadian employees",
+      "prerequisites": [],
+      "assessmentType": "Multiple choice assessment",
+      "certification": true,
+      "countries": ["Canada"]
+    },
+    {
+      "id": "na-004",
+      "title": "Agile & Scrum Practitioner",
+      "category": "technical",
+      "level": "Intermediate",
+      "duration": "8 hours",
+      "format": ["eLearning", "Workshop"],
+      "languages": ["English"],
+      "description": "Comprehensive Agile methodology training covering Scrum, Kanban, and SAFe frameworks widely adopted across North American tech and enterprise sectors.",
+      "learningObjectives": [
+        "Apply Scrum ceremonies and roles effectively",
+        "Build and manage product backlogs",
+        "Run effective sprint planning and retrospectives",
+        "Scale Agile using SAFe principles"
+      ],
+      "audience": "Product managers, developers, project managers",
+      "prerequisites": ["Introduction to Project Management"],
+      "assessmentType": "Practical simulation + written exam",
+      "certification": true,
+      "countries": ["United States", "Canada"]
+    },
+    {
+      "id": "na-005",
+      "title": "Data Privacy & CCPA Compliance",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "2 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Spanish"],
+      "description": "Data privacy training covering the California Consumer Privacy Act (CCPA), PIPEDA for Canadian operations, and best practices for protecting customer data.",
+      "learningObjectives": [
+        "Understand CCPA consumer rights and business obligations",
+        "Implement data minimization and purpose limitation principles",
+        "Handle data subject requests appropriately",
+        "Apply PIPEDA requirements for Canadian operations"
+      ],
+      "audience": "All employees handling personal data",
+      "prerequisites": [],
+      "assessmentType": "Scenario-based assessment",
+      "certification": true,
+      "countries": ["United States", "Canada"]
+    },
+    {
+      "id": "na-006",
+      "title": "Unconscious Bias in the Workplace",
+      "category": "dei",
+      "level": "Foundational",
+      "duration": "2 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Spanish", "French"],
+      "description": "Awareness and action-oriented training on recognizing and mitigating unconscious bias in hiring, performance reviews, and daily interactions.",
+      "learningObjectives": [
+        "Define and identify common types of unconscious bias",
+        "Understand the impact of bias on organizational outcomes",
+        "Apply de-biasing strategies in decision-making",
+        "Create more equitable workplace practices"
+      ],
+      "audience": "All employees",
+      "prerequisites": [],
+      "assessmentType": "Reflection exercises + knowledge check",
+      "certification": false,
+      "countries": ["United States", "Canada", "Mexico"]
+    },
+    {
+      "id": "na-007",
+      "title": "Executive Presence & Communication",
+      "category": "communication",
+      "level": "Advanced",
+      "duration": "6 hours",
+      "format": ["Virtual Classroom", "Coaching"],
+      "languages": ["English"],
+      "description": "Build the gravitas, communication skills, and influence strategies needed to lead at senior levels in North American corporate environments.",
+      "learningObjectives": [
+        "Project confidence and credibility in high-stakes situations",
+        "Deliver compelling presentations to C-suite audiences",
+        "Navigate difficult conversations with senior stakeholders",
+        "Build and manage professional reputation"
+      ],
+      "audience": "Senior managers and directors",
+      "prerequisites": ["Leadership Fundamentals"],
+      "assessmentType": "Video presentation + peer feedback",
+      "certification": false,
+      "countries": ["United States", "Canada"]
+    },
+    {
+      "id": "na-008",
+      "title": "Mental Health First Aid at Work",
+      "category": "health-safety",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning", "Workshop"],
+      "languages": ["English", "French", "Spanish"],
+      "description": "Equip employees and managers with the skills to recognize mental health challenges and provide initial support in the workplace.",
+      "learningObjectives": [
+        "Recognize signs of common mental health conditions",
+        "Apply the ALGEE action plan for mental health first aid",
+        "Reduce stigma around mental health in the workplace",
+        "Connect colleagues with appropriate support resources"
+      ],
+      "audience": "All employees; especially beneficial for managers",
+      "prerequisites": [],
+      "assessmentType": "Scenario-based quiz",
+      "certification": true,
+      "countries": ["United States", "Canada", "Mexico"]
+    },
+    {
+      "id": "na-009",
+      "title": "Financial Literacy for Employees",
+      "category": "finance",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Spanish"],
+      "description": "Practical financial wellness training covering budgeting, retirement planning (401k/RRSP), employee benefits, and investment basics.",
+      "learningObjectives": [
+        "Build and maintain a personal budget",
+        "Maximize employer retirement contribution benefits",
+        "Understand key employee benefits and coverage",
+        "Make informed basic investment decisions"
+      ],
+      "audience": "All employees",
+      "prerequisites": [],
+      "assessmentType": "Knowledge check",
+      "certification": false,
+      "countries": ["United States", "Canada"]
+    },
+    {
+      "id": "na-010",
+      "title": "Customer Experience Excellence",
+      "category": "sales",
+      "level": "Intermediate",
+      "duration": "5 hours",
+      "format": ["eLearning", "Role Play Simulations"],
+      "languages": ["English", "Spanish", "French"],
+      "description": "Develop skills to deliver world-class customer experiences aligned with North American consumer expectations and service standards.",
+      "learningObjectives": [
+        "Map and optimize the end-to-end customer journey",
+        "Apply empathy-based service techniques",
+        "Handle difficult customer situations professionally",
+        "Use NPS and CSAT data to drive improvements"
+      ],
+      "audience": "Customer-facing employees and team leads",
+      "prerequisites": [],
+      "assessmentType": "Role-play simulation scoring",
+      "certification": true,
+      "countries": ["United States", "Canada", "Mexico"]
+    },
+    {
+      "id": "na-011",
+      "title": "Cybersecurity Awareness",
+      "category": "technical",
+      "level": "Foundational",
+      "duration": "2 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "French", "Spanish"],
+      "description": "Essential cybersecurity training covering phishing, social engineering, password hygiene, and data protection best practices.",
+      "learningObjectives": [
+        "Identify phishing and social engineering attempts",
+        "Apply strong password and MFA practices",
+        "Handle sensitive data securely",
+        "Report security incidents promptly"
+      ],
+      "audience": "All employees",
+      "prerequisites": [],
+      "assessmentType": "Phishing simulation + quiz",
+      "certification": true,
+      "countries": ["United States", "Canada", "Mexico"]
+    },
+    {
+      "id": "na-012",
+      "title": "Innovation & Design Thinking",
+      "category": "technical",
+      "level": "Intermediate",
+      "duration": "6 hours",
+      "format": ["Workshop", "eLearning"],
+      "languages": ["English"],
+      "description": "Hands-on training in Design Thinking methodology to solve complex problems and drive innovation across North American organizations.",
+      "learningObjectives": [
+        "Apply the five stages of Design Thinking",
+        "Conduct empathy interviews and user research",
+        "Facilitate ideation and prototyping sessions",
+        "Test and iterate solutions with real users"
+      ],
+      "audience": "Product, strategy, and innovation teams",
+      "prerequisites": [],
+      "assessmentType": "Group innovation project",
+      "certification": false,
+      "countries": ["United States", "Canada"]
+    },
+    {
+      "id": "na-013",
+      "title": "Spanish Language Essentials for Business",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "10 hours",
+      "format": ["eLearning", "Virtual Coaching"],
+      "languages": ["English"],
+      "description": "Business Spanish for professionals working with Latin American colleagues and clients, with focus on Mexican business culture and etiquette.",
+      "learningObjectives": [
+        "Conduct basic business conversations in Spanish",
+        "Understand Mexican and Latin American business etiquette",
+        "Navigate cultural nuances in cross-border business",
+        "Build relationships with Spanish-speaking stakeholders"
+      ],
+      "audience": "US and Canadian employees with Latin American business exposure",
+      "prerequisites": [],
+      "assessmentType": "Oral and written language assessment",
+      "certification": false,
+      "countries": ["United States", "Canada"]
+    },
+    {
+      "id": "na-014",
+      "title": "Negotiation Skills Mastery",
+      "category": "communication",
+      "level": "Advanced",
+      "duration": "7 hours",
+      "format": ["Workshop", "Virtual Classroom"],
+      "languages": ["English", "Spanish"],
+      "description": "Advanced negotiation strategies and tactics for complex business deals in North American markets.",
+      "learningObjectives": [
+        "Apply principled negotiation frameworks (Harvard Method)",
+        "Prepare and execute multi-party negotiations",
+        "Read and respond to negotiation tactics",
+        "Close deals while preserving long-term relationships"
+      ],
+      "audience": "Sales, procurement, and senior business professionals",
+      "prerequisites": ["Communication Foundations"],
+      "assessmentType": "Live negotiation simulation",
+      "certification": true,
+      "countries": ["United States", "Canada", "Mexico"]
+    },
+    {
+      "id": "na-015",
+      "title": "Workplace Safety & OSHA Compliance",
+      "category": "health-safety",
+      "level": "Foundational",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Spanish"],
+      "description": "OSHA-aligned workplace safety training for US operations, covering hazard identification, incident reporting, and emergency procedures.",
+      "learningObjectives": [
+        "Identify workplace hazards and risk factors",
+        "Apply OSHA standards relevant to your industry",
+        "Complete incident and near-miss reports",
+        "Execute emergency response procedures"
+      ],
+      "audience": "All US employees, mandatory for operations roles",
+      "prerequisites": [],
+      "assessmentType": "Regulatory compliance test (pass mark 85%)",
+      "certification": true,
+      "countries": ["United States"]
+    },
+    {
+      "id": "na-016",
+      "title": "Leading Remote & Hybrid Teams",
+      "category": "leadership",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning", "Virtual Workshop"],
+      "languages": ["English", "French"],
+      "description": "Practical strategies for managing distributed teams effectively across time zones and work environments.",
+      "learningObjectives": [
+        "Set clear expectations and accountability structures for remote teams",
+        "Use digital collaboration tools to maintain team cohesion",
+        "Conduct effective virtual meetings and one-on-ones",
+        "Maintain team culture and engagement in hybrid environments"
+      ],
+      "audience": "Managers and team leads with remote reports",
+      "prerequisites": [],
+      "assessmentType": "Practical application assignment",
+      "certification": false,
+      "countries": ["United States", "Canada"]
+    },
+    {
+      "id": "na-017",
+      "title": "Indigenous Cultural Awareness (Canada)",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "French"],
+      "description": "Foundational learning on Indigenous history, cultures, and reconciliation in Canada, supporting Truth and Reconciliation commitments in the workplace.",
+      "learningObjectives": [
+        "Understand key events of Canada's Indigenous history and their ongoing impact",
+        "Recognize the diversity of Indigenous Nations and cultures",
+        "Apply principles of reconciliation in daily work",
+        "Engage respectfully with Indigenous colleagues and communities"
+      ],
+      "audience": "All Canadian employees",
+      "prerequisites": [],
+      "assessmentType": "Reflection and knowledge check",
+      "certification": true,
+      "countries": ["Canada"]
+    },
+    {
+      "id": "na-018",
+      "title": "Sustainability & ESG Fundamentals",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "2.5 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "French", "Spanish"],
+      "description": "Introduction to Environmental, Social and Governance (ESG) principles and how employees contribute to corporate sustainability goals.",
+      "learningObjectives": [
+        "Understand the ESG framework and its business importance",
+        "Identify individual contributions to sustainability goals",
+        "Apply circular economy thinking in operations",
+        "Engage with supplier and community sustainability initiatives"
+      ],
+      "audience": "All employees",
+      "prerequisites": [],
+      "assessmentType": "Knowledge check",
+      "certification": false,
+      "countries": ["United States", "Canada", "Mexico"]
+    }
+  ]
+}

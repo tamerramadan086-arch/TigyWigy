@@ -1,0 +1,82 @@
+{
+  "_comment": "TigyWigy learning pathway / course template — a structured sequence of modules forming a complete learning journey.",
+  "courseId": "COURSE-001",
+  "title": "Course / Learning Pathway Title",
+  "region": "global | specific-region",
+  "category": "leadership | technical | compliance | dei | digital | communication | health-safety | cultural | sales | finance",
+  "level": "Foundational | Intermediate | Advanced | Mixed",
+  "totalDuration": "X hours across Y modules",
+  "description": "A complete learning pathway that takes learners on a structured journey from [start state] to [end state].",
+  "targetAudience": "Specific role, function, and level",
+  "businessProblem": "What business challenge or performance gap does this pathway address?",
+  "outcomes": [
+    "High-level capability or behavioural outcome 1",
+    "High-level capability or behavioural outcome 2",
+    "High-level capability or behavioural outcome 3"
+  ],
+  "modules": [
+    {
+      "sequence": 1,
+      "moduleId": "REGION-XXX",
+      "title": "Module 1 Title",
+      "type": "Prerequisite | Core | Elective",
+      "duration": "X hours",
+      "format": "eLearning"
+    },
+    {
+      "sequence": 2,
+      "moduleId": "REGION-XXX",
+      "title": "Module 2 Title",
+      "type": "Core",
+      "duration": "X hours",
+      "format": "Workshop"
+    },
+    {
+      "sequence": 3,
+      "moduleId": "REGION-XXX",
+      "title": "Module 3 Title",
+      "type": "Core",
+      "duration": "X hours",
+      "format": "Virtual Classroom"
+    }
+  ],
+  "certificationAwarded": false,
+  "certificationTitle": "Certificate of Completion — [Course Name]",
+  "certificationIssuingBody": "TigyWigy / Accrediting Body Name",
+  "cpd_credits": 0,
+  "completionCriteria": {
+    "minimumModules": "all",
+    "minimumAssessmentScore": 80,
+    "mandatoryModules": ["REGION-XXX"],
+    "timeLimit": "90 days from enrollment"
+  },
+  "delivery": {
+    "primaryFormat": "Blended (self-paced eLearning + live virtual sessions)",
+    "lmsRequired": true,
+    "facilitatorRequired": false,
+    "cohortSize": "Individual | 10-20 | 20+"
+  },
+  "rolloutPlan": {
+    "pilotGroup": "X participants, Y region, launch date",
+    "globalRolloutDate": "YYYY-MM-DD",
+    "mandatoryByDate": "YYYY-MM-DD",
+    "languages": ["English"],
+    "communicationPlan": "Email campaign + LMS notification + Manager briefing"
+  },
+  "evaluation": {
+    "level1Tool": "Post-module reaction survey via LMS",
+    "level2Tool": "Pre/post knowledge assessment built into LMS",
+    "level3Tool": "Behaviour observation framework for managers at 30/60/90 days",
+    "level4Metric": "Business KPI tracked over 6 months post-completion"
+  },
+  "contentOwner": "L&D Team / Business Unit",
+  "stakeholders": ["Sponsor Name", "HR BP Name", "SME Name"],
+  "budget": {
+    "developmentCost": "TBC",
+    "deliveryCostPerHead": "TBC",
+    "technologyCost": "TBC"
+  },
+  "version": "1.0",
+  "lastUpdated": "YYYY-MM-DD",
+  "status": "Draft | In Development | Piloting | Live | Retired"
+}

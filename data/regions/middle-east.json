@@ -1,0 +1,300 @@
+{
+  "region": "Middle East",
+  "regionId": "middle-east",
+  "modules": [
+    {
+      "id": "me-001",
+      "title": "Islamic Business Ethics & Finance",
+      "category": "finance",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Arabic"],
+      "description": "Understanding Islamic business ethics, Sharia-compliant finance principles, halal certification, and their practical implications for business in Muslim-majority markets.",
+      "learningObjectives": [
+        "Apply core Islamic business ethics: trust, fairness, and social responsibility",
+        "Understand Sharia compliance in financial products and transactions",
+        "Navigate halal business practices and certification requirements",
+        "Engage respectfully with Islamic finance principles"
+      ],
+      "audience": "Business professionals operating in GCC and Muslim-majority markets",
+      "prerequisites": [],
+      "assessmentType": "Scenario-based quiz",
+      "certification": false,
+      "countries": ["UAE", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain", "Oman"]
+    },
+    {
+      "id": "me-002",
+      "title": "UAE Labour Law & Employment Compliance",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Arabic"],
+      "description": "Comprehensive UAE Labour Law compliance training covering MOHRE regulations, employment contracts, leave entitlements, and end-of-service gratuity.",
+      "learningObjectives": [
+        "Apply UAE Federal Decree-Law No. 33 of 2021 (Labour Law) requirements",
+        "Manage employment contracts, termination, and gratuity",
+        "Administer leave entitlements correctly",
+        "Navigate NAFIS Emiratisation requirements"
+      ],
+      "audience": "HR and managers in UAE operations",
+      "prerequisites": [],
+      "assessmentType": "Regulatory compliance test",
+      "certification": true,
+      "countries": ["UAE"]
+    },
+    {
+      "id": "me-003",
+      "title": "Saudi Arabia Vision 2030 & Business Transformation",
+      "category": "digital",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Arabic"],
+      "description": "Understanding Vision 2030's transformation of Saudi Arabia's economy, diversification initiatives, and the opportunities for businesses in KSA's evolution.",
+      "learningObjectives": [
+        "Understand Vision 2030's strategic pillars and economic targets",
+        "Identify business opportunities in Saudi Arabia's priority sectors (tourism, entertainment, fintech)",
+        "Navigate NEOM and Giga-project business development",
+        "Meet Saudization (Nitaqat) workforce requirements"
+      ],
+      "audience": "Business development, strategy, and HR teams in KSA",
+      "prerequisites": [],
+      "assessmentType": "Business environment quiz",
+      "certification": false,
+      "countries": ["Saudi Arabia"]
+    },
+    {
+      "id": "me-004",
+      "title": "Arabic Business Communication",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["English"],
+      "description": "Business Arabic essentials for non-Arabic speaking professionals, covering greetings, meeting etiquette, relationship-building, and understanding Arabic communication styles.",
+      "learningObjectives": [
+        "Use essential business Arabic greetings and phrases",
+        "Navigate the relationship-first (wasta) business culture",
+        "Understand indirect communication norms in Arabic culture",
+        "Conduct effective meetings with Arab colleagues and clients"
+      ],
+      "audience": "International professionals working in the Middle East",
+      "prerequisites": [],
+      "assessmentType": "Language and cultural quiz",
+      "certification": false,
+      "countries": ["UAE", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain", "Oman", "Jordan", "Lebanon"]
+    },
+    {
+      "id": "me-005",
+      "title": "GCC Workplace Diversity & Expatriate Management",
+      "category": "dei",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning", "Workshop"],
+      "languages": ["English", "Arabic"],
+      "description": "Managing the extraordinarily diverse GCC workforce — expatriates from 150+ nationalities alongside nationals — for cohesion, inclusion, and high performance.",
+      "learningObjectives": [
+        "Build inclusive practices for highly diverse expatriate and national workforces",
+        "Navigate Emiratisation/Saudization policies and their team impact",
+        "Manage cultural differences across South Asian, Arab, Western, and national employees",
+        "Support expatriate integration and transition"
+      ],
+      "audience": "HR and managers in GCC operations",
+      "prerequisites": [],
+      "assessmentType": "Case study assessment",
+      "certification": false,
+      "countries": ["UAE", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain", "Oman"]
+    },
+    {
+      "id": "me-006",
+      "title": "Ramadan & Religious Observance at Work",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "1.5 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Arabic"],
+      "description": "Practical guidance for managers and employees on navigating Ramadan and other Islamic religious observances in the workplace with respect and inclusion.",
+      "learningObjectives": [
+        "Understand the significance and practices of Ramadan for Muslim employees",
+        "Adapt work schedules and expectations during Ramadan",
+        "Observe respectful behavior during Islamic religious periods",
+        "Support Muslim colleagues' prayer and fasting obligations"
+      ],
+      "audience": "All employees in Muslim-majority environments",
+      "prerequisites": [],
+      "assessmentType": "Knowledge check",
+      "certification": false,
+      "countries": ["UAE", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain", "Oman", "Jordan", "Lebanon"]
+    },
+    {
+      "id": "me-007",
+      "title": "Anti-Money Laundering in MENA",
+      "category": "compliance",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Arabic"],
+      "description": "AML/CFT compliance training aligned with FATF requirements and MENA region regulatory frameworks including CBUAE, SAMA, and QCB regulations.",
+      "learningObjectives": [
+        "Apply AML/CFT controls in MENA financial operations",
+        "Conduct Enhanced Due Diligence for high-risk customers in MENA",
+        "Understand Hawala and informal value transfer monitoring",
+        "File STRs with MENA FIUs appropriately"
+      ],
+      "audience": "Financial services, legal, and compliance professionals",
+      "prerequisites": [],
+      "assessmentType": "Regulatory examination",
+      "certification": true,
+      "countries": ["UAE", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain", "Oman", "Egypt"]
+    },
+    {
+      "id": "me-008",
+      "title": "Turkey Business Culture",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "2.5 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Turkish"],
+      "description": "Business culture training for Turkey — bridging Eastern and Western influences, managing hierarchies, and building relationships in Turkey's unique business environment.",
+      "learningObjectives": [
+        "Navigate Turkey's blend of formal hierarchy and warm hospitality",
+        "Understand the role of personal relationships in Turkish business",
+        "Adapt to Turkish decision-making and negotiation styles",
+        "Engage with Turkey's business practices across Istanbul, Ankara, and Anatolia"
+      ],
+      "audience": "Professionals engaging with Turkey",
+      "prerequisites": [],
+      "assessmentType": "Cultural quiz",
+      "certification": false,
+      "countries": ["Turkey"]
+    },
+    {
+      "id": "me-009",
+      "title": "NEOM & Future Cities — Digital Upskilling",
+      "category": "digital",
+      "level": "Advanced",
+      "duration": "6 hours",
+      "format": ["eLearning", "Workshop"],
+      "languages": ["English", "Arabic"],
+      "description": "Digital skills training for professionals involved in Saudi Arabia's NEOM and future city projects — AI, smart city technology, and digital infrastructure.",
+      "learningObjectives": [
+        "Understand smart city technology platforms and architecture",
+        "Apply AI and IoT in urban infrastructure management",
+        "Manage digital twin projects",
+        "Lead digital transformation in mega-project environments"
+      ],
+      "audience": "Technology and project professionals in KSA mega-projects",
+      "prerequisites": ["Digital Transformation Fundamentals"],
+      "assessmentType": "Technical assessment",
+      "certification": true,
+      "countries": ["Saudi Arabia"]
+    },
+    {
+      "id": "me-010",
+      "title": "Gender in the Middle East Workplace",
+      "category": "dei",
+      "level": "Intermediate",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Arabic"],
+      "description": "Navigating gender dynamics in rapidly changing Middle Eastern workplaces, particularly supporting women's growing participation in GCC and Levant economies.",
+      "learningObjectives": [
+        "Understand changing gender norms and legal reforms in GCC countries",
+        "Support women's advancement in Middle Eastern workplace contexts",
+        "Manage mixed-gender teams in culturally sensitive environments",
+        "Comply with gender-related labor regulations across MENA"
+      ],
+      "audience": "Managers and HR professionals in MENA",
+      "prerequisites": [],
+      "assessmentType": "Reflection and case study",
+      "certification": false,
+      "countries": ["UAE", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain", "Oman", "Jordan", "Lebanon"]
+    },
+    {
+      "id": "me-011",
+      "title": "Israel Technology & Innovation Ecosystem",
+      "category": "digital",
+      "level": "Intermediate",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Hebrew"],
+      "description": "Understanding the Israeli startup nation ecosystem, chutzpah culture, and how to partner effectively with Israeli tech companies and research institutions.",
+      "learningObjectives": [
+        "Navigate Israel's flat, direct, and chutzpah-driven work culture",
+        "Understand the Israeli defense tech to commercial tech transfer pipeline",
+        "Build partnerships with Israeli startups and VCs",
+        "Manage working with Israeli teams across time zones and cultures"
+      ],
+      "audience": "Business development and technology teams",
+      "prerequisites": [],
+      "assessmentType": "Cultural and business quiz",
+      "certification": false,
+      "countries": ["Israel"]
+    },
+    {
+      "id": "me-012",
+      "title": "Qatar Compliance & FIFA World Cup Legacy",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Arabic"],
+      "description": "Qatar labor law compliance, including significant reforms introduced around the FIFA World Cup 2022, kafala system changes, and workers' rights improvements.",
+      "learningObjectives": [
+        "Apply post-2020 labor law reforms in Qatar",
+        "Navigate the reformed kafala sponsorship system",
+        "Meet Qatarization workforce requirements",
+        "Ensure migrant worker rights and welfare standards"
+      ],
+      "audience": "HR and operations teams in Qatar",
+      "prerequisites": [],
+      "assessmentType": "Compliance test",
+      "certification": true,
+      "countries": ["Qatar"]
+    },
+    {
+      "id": "me-013",
+      "title": "Healthcare Sector Training — MENA",
+      "category": "technical",
+      "level": "Intermediate",
+      "duration": "5 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Arabic"],
+      "description": "Healthcare sector-specific L&D for MENA professionals covering HAAD/DHA licensing, patient rights, and healthcare delivery standards.",
+      "learningObjectives": [
+        "Apply UAE HAAD and DHA healthcare licensing requirements",
+        "Uphold patient rights and informed consent standards",
+        "Navigate clinical governance in MENA healthcare settings",
+        "Deliver culturally sensitive healthcare to diverse MENA populations"
+      ],
+      "audience": "Healthcare professionals in UAE and MENA",
+      "prerequisites": ["Healthcare Fundamentals"],
+      "assessmentType": "Clinical knowledge assessment",
+      "certification": true,
+      "countries": ["UAE", "Saudi Arabia", "Qatar", "Kuwait"]
+    },
+    {
+      "id": "me-014",
+      "title": "Sustainability & Green Economy in MENA",
+      "category": "compliance",
+      "level": "Intermediate",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Arabic"],
+      "description": "ESG training aligned with UAE Net Zero 2050, Saudi Green Initiative, and broader MENA sustainability commitments including COP28 outcomes.",
+      "learningObjectives": [
+        "Understand MENA countries' net-zero commitments and strategies",
+        "Apply UAE ESG reporting guidelines for listed companies",
+        "Implement green economy practices in MENA operations",
+        "Navigate renewable energy transition in oil-dependent economies"
+      ],
+      "audience": "Sustainability, strategy, and operations teams",
+      "prerequisites": [],
+      "assessmentType": "Knowledge check",
+      "certification": false,
+      "countries": ["UAE", "Saudi Arabia", "Qatar", "Bahrain", "Oman"]
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "region": "Europe",
+  "regionId": "europe",
+  "modules": [
+    {
+      "id": "eu-001",
+      "title": "GDPR Compliance & Data Protection",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "German", "French", "Spanish", "Italian", "Dutch", "Polish"],
+      "description": "Comprehensive GDPR training covering lawful basis for processing, data subject rights, DPO responsibilities, and breach notification obligations.",
+      "learningObjectives": [
+        "Understand the six lawful bases for processing personal data",
+        "Handle data subject access requests within regulatory timelines",
+        "Identify and report personal data breaches appropriately",
+        "Maintain GDPR-compliant records of processing activities"
+      ],
+      "audience": "All EU/EEA employees; mandatory",
+      "prerequisites": [],
+      "assessmentType": "Regulatory test (80% pass mark)",
+      "certification": true,
+      "countries": ["All EU/EEA countries"]
+    },
+    {
+      "id": "eu-002",
+      "title": "European Leadership Excellence",
+      "category": "leadership",
+      "level": "Intermediate",
+      "duration": "6 hours",
+      "format": ["Virtual Classroom", "Blended Learning"],
+      "languages": ["English", "German", "French"],
+      "description": "Leadership development tailored to European corporate cultures, covering consensus-building, works councils, co-determination, and cross-border team management.",
+      "learningObjectives": [
+        "Navigate co-determination and works council processes in Germany, Netherlands, and Nordics",
+        "Lead across high-context and low-context European cultures",
+        "Apply situational leadership in European regulatory environments",
+        "Build cohesive multinational European teams"
+      ],
+      "audience": "Senior managers and directors",
+      "prerequisites": ["Management Essentials"],
+      "assessmentType": "Case study analysis + peer review",
+      "certification": true,
+      "countries": ["Germany", "France", "Netherlands", "Sweden", "Belgium", "Denmark", "Norway", "Finland", "Austria"]
+    },
+    {
+      "id": "eu-003",
+      "title": "Anti-Bribery & Corruption (UK Bribery Act)",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "2 hours",
+      "format": ["eLearning"],
+      "languages": ["English"],
+      "description": "Compliance training aligned with the UK Bribery Act 2010, covering facilitation payments, gifts and hospitality, and third-party due diligence.",
+      "learningObjectives": [
+        "Identify bribery and corruption risk scenarios",
+        "Apply the six adequate procedures for anti-bribery compliance",
+        "Manage gifts, hospitality, and entertainment within policy",
+        "Conduct due diligence on third parties and agents"
+      ],
+      "audience": "All UK-based employees; global employees with UK exposure",
+      "prerequisites": [],
+      "assessmentType": "Scenario-based assessment",
+      "certification": true,
+      "countries": ["United Kingdom"]
+    },
+    {
+      "id": "eu-004",
+      "title": "Diversity & Inclusion in Europe",
+      "category": "dei",
+      "level": "Intermediate",
+      "duration": "3 hours",
+      "format": ["eLearning", "Workshop"],
+      "languages": ["English", "German", "French", "Spanish", "Italian"],
+      "description": "Practical DEI training addressing Europe's specific diversity dimensions including nationality, religion, age, and disability within EU anti-discrimination framework.",
+      "learningObjectives": [
+        "Understand EU equal treatment directives and national implementations",
+        "Address discrimination on the nine protected characteristics",
+        "Build inclusive practices in multilingual, multinational teams",
+        "Support neurodiversity and disability inclusion"
+      ],
+      "audience": "All employees",
+      "prerequisites": [],
+      "assessmentType": "Reflection and knowledge check",
+      "certification": false,
+      "countries": ["All EU countries"]
+    },
+    {
+      "id": "eu-005",
+      "title": "German Business Culture & Etiquette",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "2 hours",
+      "format": ["eLearning"],
+      "languages": ["English"],
+      "description": "Essential cultural intelligence training for professionals working with German colleagues and clients, covering communication norms, meeting culture, and hierarchy.",
+      "learningObjectives": [
+        "Navigate formal communication and hierarchy norms in German business",
+        "Conduct effective meetings aligned with German expectations",
+        "Understand the role of Betriebsrat (works council) in operations",
+        "Build trust with German business partners"
+      ],
+      "audience": "International employees working with German teams",
+      "prerequisites": [],
+      "assessmentType": "Scenario-based quiz",
+      "certification": false,
+      "countries": ["Germany", "Austria", "Switzerland"]
+    },
+    {
+      "id": "eu-006",
+      "title": "Sustainability & EU Green Deal",
+      "category": "compliance",
+      "level": "Intermediate",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "German", "French"],
+      "description": "Training on the European Green Deal, Corporate Sustainability Reporting Directive (CSRD), and Taxonomy Regulation, and their impact on business operations.",
+      "learningObjectives": [
+        "Understand the European Green Deal strategic objectives",
+        "Navigate CSRD reporting obligations",
+        "Apply EU Taxonomy for sustainable activities",
+        "Reduce organizational carbon footprint"
+      ],
+      "audience": "Sustainability, finance, and compliance teams",
+      "prerequisites": [],
+      "assessmentType": "Knowledge check",
+      "certification": false,
+      "countries": ["All EU countries"]
+    },
+    {
+      "id": "eu-007",
+      "title": "Working Time Regulations & Employee Rights",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "1.5 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "German", "French", "Spanish"],
+      "description": "HR compliance training on EU Working Time Directive, national implementations, rest periods, and employee rights to disconnect.",
+      "learningObjectives": [
+        "Apply EU Working Time Directive requirements",
+        "Manage overtime and rest period obligations",
+        "Respect employees' right to disconnect",
+        "Maintain compliant time recording"
+      ],
+      "audience": "HR, managers, and all employees",
+      "prerequisites": [],
+      "assessmentType": "Compliance check",
+      "certification": true,
+      "countries": ["All EU countries"]
+    },
+    {
+      "id": "eu-008",
+      "title": "French Business Communication",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "2 hours",
+      "format": ["eLearning"],
+      "languages": ["English"],
+      "description": "Cultural and communication training for professionals engaging with French colleagues and clients, covering formality, intellectual culture, and negotiation style.",
+      "learningObjectives": [
+        "Use appropriate formal and informal registers in French business",
+        "Navigate intellectual debate culture in French meetings",
+        "Understand French labor relations context",
+        "Build effective working relationships with French stakeholders"
+      ],
+      "audience": "International employees working with French teams",
+      "prerequisites": [],
+      "assessmentType": "Scenario-based quiz",
+      "certification": false,
+      "countries": ["France", "Belgium", "Switzerland"]
+    },
+    {
+      "id": "eu-009",
+      "title": "AI & Ethics in the Workplace",
+      "category": "digital",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning", "Virtual Workshop"],
+      "languages": ["English", "German", "French"],
+      "description": "Training on responsible AI use aligned with the EU AI Act, covering risk assessment, algorithmic transparency, and human oversight.",
+      "learningObjectives": [
+        "Understand the EU AI Act risk classification system",
+        "Apply ethical AI principles in decision-making",
+        "Identify and mitigate AI bias",
+        "Maintain human oversight in AI-assisted processes"
+      ],
+      "audience": "Technology, data, and management teams",
+      "prerequisites": ["Digital Literacy Fundamentals"],
+      "assessmentType": "Case study assessment",
+      "certification": true,
+      "countries": ["All EU countries"]
+    },
+    {
+      "id": "eu-010",
+      "title": "Health & Safety at Work (EU Standards)",
+      "category": "health-safety",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "German", "French", "Spanish", "Italian", "Polish"],
+      "description": "EU Framework Directive-aligned workplace health and safety training, covering risk assessment, DSE (display screen equipment), and ergonomics.",
+      "learningObjectives": [
+        "Conduct workplace risk assessments",
+        "Apply EU health and safety framework requirements",
+        "Set up ergonomic display screen workstations",
+        "Prevent and report workplace accidents"
+      ],
+      "audience": "All EU employees",
+      "prerequisites": [],
+      "assessmentType": "Regulatory compliance test",
+      "certification": true,
+      "countries": ["All EU countries"]
+    },
+    {
+      "id": "eu-011",
+      "title": "Cross-Cultural Communication in Europe",
+      "category": "cultural",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning", "Workshop"],
+      "languages": ["English"],
+      "description": "Navigating the diverse cultural landscape of Europe — from Nordic directness to Mediterranean relationship-focus — for effective pan-European collaboration.",
+      "learningObjectives": [
+        "Map cultural dimensions across European nations (Hofstede framework)",
+        "Adapt communication style to different European cultures",
+        "Facilitate effective meetings in multicultural European teams",
+        "Resolve cross-cultural misunderstandings constructively"
+      ],
+      "audience": "All employees in pan-European roles",
+      "prerequisites": [],
+      "assessmentType": "Cultural scenario assessment",
+      "certification": false,
+      "countries": ["All European countries"]
+    },
+    {
+      "id": "eu-012",
+      "title": "Digital Skills for the Modern Workplace",
+      "category": "digital",
+      "level": "Foundational",
+      "duration": "5 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "German", "French", "Spanish", "Italian"],
+      "description": "Aligned with the EU DigComp 2.2 framework, this module builds foundational digital competencies for all employees.",
+      "learningObjectives": [
+        "Navigate digital tools for information and data literacy",
+        "Communicate and collaborate effectively in digital environments",
+        "Create and edit digital content responsibly",
+        "Solve problems with digital tools and resources"
+      ],
+      "audience": "All employees",
+      "prerequisites": [],
+      "assessmentType": "DigComp competence assessment",
+      "certification": true,
+      "countries": ["All EU countries"]
+    },
+    {
+      "id": "eu-013",
+      "title": "Financial Services Compliance (MiFID II)",
+      "category": "compliance",
+      "level": "Advanced",
+      "duration": "6 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "German", "French"],
+      "description": "MiFID II regulatory training for financial services professionals covering client classification, suitability, best execution, and product governance.",
+      "learningObjectives": [
+        "Apply MiFID II client categorization rules",
+        "Conduct suitability and appropriateness assessments",
+        "Meet best execution obligations",
+        "Adhere to product governance requirements"
+      ],
+      "audience": "Financial services professionals",
+      "prerequisites": ["Financial Services Introduction"],
+      "assessmentType": "Regulatory examination",
+      "certification": true,
+      "countries": ["United Kingdom", "Germany", "France", "Netherlands", "Belgium", "Luxembourg"]
+    },
+    {
+      "id": "eu-014",
+      "title": "Whistleblowing & Speak-Up Culture",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "1.5 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "German", "French", "Spanish", "Italian", "Dutch", "Polish"],
+      "description": "EU Whistleblower Directive-aligned training on reporting channels, protections for whistleblowers, and fostering a speak-up culture.",
+      "learningObjectives": [
+        "Understand whistleblower protections under EU Directive 2019/1937",
+        "Use internal and external reporting channels appropriately",
+        "Recognize and avoid retaliation against reporters",
+        "Support a transparent, speak-up culture"
+      ],
+      "audience": "All EU employees",
+      "prerequisites": [],
+      "assessmentType": "Knowledge check",
+      "certification": true,
+      "countries": ["All EU countries"]
+    },
+    {
+      "id": "eu-015",
+      "title": "Resilience & Stress Management",
+      "category": "health-safety",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning", "Workshop"],
+      "languages": ["English", "German", "French", "Spanish"],
+      "description": "Evidence-based resilience training helping employees manage workplace stress, prevent burnout, and maintain wellbeing.",
+      "learningObjectives": [
+        "Identify personal stress triggers and warning signs",
+        "Apply cognitive-behavioral techniques for stress management",
+        "Build sustainable work habits and boundaries",
+        "Support colleagues experiencing stress"
+      ],
+      "audience": "All employees",
+      "prerequisites": [],
+      "assessmentType": "Self-assessment and action plan",
+      "certification": false,
+      "countries": ["All European countries"]
+    },
+    {
+      "id": "eu-016",
+      "title": "Sales Excellence in European Markets",
+      "category": "sales",
+      "level": "Intermediate",
+      "duration": "6 hours",
+      "format": ["Workshop", "eLearning"],
+      "languages": ["English", "German", "French", "Spanish"],
+      "description": "Develop consultative selling skills tailored to European B2B markets, including relationship-building, complex sales cycles, and procurement dynamics.",
+      "learningObjectives": [
+        "Apply consultative selling methodology in B2B European contexts",
+        "Navigate complex multi-stakeholder procurement processes",
+        "Adapt sales approach to cultural expectations across Europe",
+        "Build long-term strategic customer relationships"
+      ],
+      "audience": "Sales and account management teams",
+      "prerequisites": [],
+      "assessmentType": "Sales simulation",
+      "certification": true,
+      "countries": ["All European countries"]
+    },
+    {
+      "id": "eu-017",
+      "title": "Coaching & Mentoring Skills",
+      "category": "leadership",
+      "level": "Intermediate",
+      "duration": "5 hours",
+      "format": ["Virtual Classroom", "Practical Exercises"],
+      "languages": ["English", "German", "French"],
+      "description": "Develop coaching and mentoring competencies to unlock team performance and support employee development.",
+      "learningObjectives": [
+        "Apply GROW coaching model in 1:1 conversations",
+        "Practice active listening and powerful questioning",
+        "Structure effective mentoring relationships",
+        "Give and receive developmental feedback"
+      ],
+      "audience": "Managers and experienced professionals",
+      "prerequisites": ["Leadership Fundamentals"],
+      "assessmentType": "Coaching practice sessions",
+      "certification": true,
+      "countries": ["All European countries"]
+    },
+    {
+      "id": "eu-018",
+      "title": "Project Management Professional (PMP Prep)",
+      "category": "technical",
+      "level": "Advanced",
+      "duration": "20 hours",
+      "format": ["eLearning", "Virtual Classroom"],
+      "languages": ["English", "German", "French"],
+      "description": "Comprehensive project management training aligned with PMI PMBOK Guide, preparing participants for PMP certification.",
+      "learningObjectives": [
+        "Apply the five process groups and ten knowledge areas of PMBOK",
+        "Develop project charters, WBS, and risk registers",
+        "Manage stakeholders, scope, schedule, and budget",
+        "Lead project teams through complex delivery challenges"
+      ],
+      "audience": "Project managers and program managers",
+      "prerequisites": ["Project Management Foundations"],
+      "assessmentType": "PMP practice examinations",
+      "certification": true,
+      "countries": ["All European countries"]
+    },
+    {
+      "id": "eu-019",
+      "title": "Intercultural Intelligence (CQ)",
+      "category": "cultural",
+      "level": "Advanced",
+      "duration": "6 hours",
+      "format": ["Blended Learning", "360 Assessment"],
+      "languages": ["English"],
+      "description": "Advanced Cultural Intelligence (CQ) development program using the CQ framework to build adaptive capability in diverse global environments.",
+      "learningObjectives": [
+        "Assess and develop the four CQ capabilities: Drive, Knowledge, Strategy, Action",
+        "Adapt leadership and communication style to cultural context",
+        "Navigate ambiguity and uncertainty in multicultural settings",
+        "Build inclusive practices that leverage cultural diversity"
+      ],
+      "audience": "Global leaders and international professionals",
+      "prerequisites": ["Cross-Cultural Awareness"],
+      "assessmentType": "CQ assessment + development plan",
+      "certification": true,
+      "countries": ["All European countries"]
+    },
+    {
+      "id": "eu-020",
+      "title": "Anti-Money Laundering (AML) & KYC",
+      "category": "compliance",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "German", "French", "Dutch"],
+      "description": "EU AML Directive-aligned training on money laundering red flags, customer due diligence, and suspicious activity reporting.",
+      "learningObjectives": [
+        "Identify money laundering and terrorist financing red flags",
+        "Apply Customer Due Diligence (CDD) and Enhanced Due Diligence (EDD)",
+        "File Suspicious Activity Reports (SARs) appropriately",
+        "Maintain AML compliance records"
+      ],
+      "audience": "Financial services, legal, and compliance professionals",
+      "prerequisites": [],
+      "assessmentType": "Regulatory examination",
+      "certification": true,
+      "countries": ["United Kingdom", "Germany", "France", "Netherlands", "Belgium", "Luxembourg", "Switzerland"]
+    }
+  ]
+}

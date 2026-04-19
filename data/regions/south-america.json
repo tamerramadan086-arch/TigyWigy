@@ -1,0 +1,342 @@
+{
+  "region": "South America",
+  "regionId": "south-america",
+  "modules": [
+    {
+      "id": "sa-001",
+      "title": "Brazil Business Culture & Labour Law (CLT)",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["Portuguese", "English"],
+      "description": "Brazilian employment compliance under Consolidação das Leis do Trabalho (CLT), covering key obligations, severance, and the unique Brazilian workplace culture.",
+      "learningObjectives": [
+        "Apply key CLT employment obligations for Brazilian operations",
+        "Manage FGTS (Severance Indemnity Fund) and social security contributions",
+        "Navigate Brazilian union relations and collective bargaining",
+        "Understand Brazilian jeitinho and relationship-based workplace culture"
+      ],
+      "audience": "HR and managers in Brazilian operations",
+      "prerequisites": [],
+      "assessmentType": "Regulatory compliance test",
+      "certification": true,
+      "countries": ["Brazil"]
+    },
+    {
+      "id": "sa-002",
+      "title": "Brazil LGPD Data Privacy Compliance",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "2.5 hours",
+      "format": ["eLearning"],
+      "languages": ["Portuguese", "English"],
+      "description": "Lei Geral de Proteção de Dados (LGPD) compliance training — Brazil's comprehensive data protection law, analogous to GDPR.",
+      "learningObjectives": [
+        "Understand LGPD's ten legal bases for data processing",
+        "Handle data subject rights requests within required timelines",
+        "Apply privacy by design principles",
+        "Report data incidents to ANPD"
+      ],
+      "audience": "All Brazilian employees handling personal data",
+      "prerequisites": [],
+      "assessmentType": "Compliance test",
+      "certification": true,
+      "countries": ["Brazil"]
+    },
+    {
+      "id": "sa-003",
+      "title": "Latin American Leadership & Personalismo",
+      "category": "leadership",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning", "Workshop"],
+      "languages": ["Spanish", "Portuguese", "English"],
+      "description": "Leadership development tailored to Latin American cultures, exploring personalismo, power distance, family-oriented values, and relationship-driven business.",
+      "learningObjectives": [
+        "Lead with personalismo and authentic relationship-building",
+        "Navigate high power distance in Latin American teams",
+        "Balance family obligations with business commitments sensitively",
+        "Inspire and motivate through purpose-driven leadership"
+      ],
+      "audience": "Managers and leaders across Latin America",
+      "prerequisites": [],
+      "assessmentType": "Leadership reflection and case study",
+      "certification": false,
+      "countries": ["Brazil", "Argentina", "Colombia", "Chile", "Peru", "Mexico", "Ecuador"]
+    },
+    {
+      "id": "sa-004",
+      "title": "Argentina Business Environment",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["Spanish", "English"],
+      "description": "Business culture and economic context for Argentina, covering communication style, financial volatility navigation, and relationship-building in Buenos Aires and beyond.",
+      "learningObjectives": [
+        "Navigate Argentina's passionate and expressive communication culture",
+        "Manage business in an economically volatile environment",
+        "Build relationships through Argentine social customs",
+        "Understand political and regulatory context for business decisions"
+      ],
+      "audience": "Professionals engaging with Argentina",
+      "prerequisites": [],
+      "assessmentType": "Cultural quiz",
+      "certification": false,
+      "countries": ["Argentina"]
+    },
+    {
+      "id": "sa-005",
+      "title": "Anti-Corruption in Latin America (Lava Jato Lessons)",
+      "category": "compliance",
+      "level": "Intermediate",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["Spanish", "Portuguese", "English"],
+      "description": "Anti-corruption compliance for LATAM operations, drawing on lessons from Brazil's Lava Jato and incorporating local anti-corruption laws (Lei Anticorrupção, etc.).",
+      "learningObjectives": [
+        "Apply Brazil's Clean Company Act (Lei Anticorrupção) requirements",
+        "Navigate anti-corruption risks in public procurement in Latin America",
+        "Manage third-party intermediary due diligence",
+        "Build a robust compliance program culture"
+      ],
+      "audience": "All employees in Latin American operations",
+      "prerequisites": [],
+      "assessmentType": "Compliance scenario test",
+      "certification": true,
+      "countries": ["Brazil", "Argentina", "Colombia", "Chile", "Peru"]
+    },
+    {
+      "id": "sa-006",
+      "title": "Colombia & Pacific Alliance Business",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["Spanish", "English"],
+      "description": "Business insights for Colombia and the Pacific Alliance (Chile, Colombia, Mexico, Peru) covering trade integration, cultural norms, and key sectors.",
+      "learningObjectives": [
+        "Understand the Pacific Alliance market integration benefits",
+        "Navigate Colombian business culture and relationship norms",
+        "Identify business opportunities across Pacific Alliance members",
+        "Manage compliance across multiple regulatory environments"
+      ],
+      "audience": "Business development and trade teams",
+      "prerequisites": [],
+      "assessmentType": "Market knowledge quiz",
+      "certification": false,
+      "countries": ["Colombia", "Chile", "Peru"]
+    },
+    {
+      "id": "sa-007",
+      "title": "Portuguese Language for Business",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "10 hours",
+      "format": ["eLearning", "Language Coaching"],
+      "languages": ["English", "Spanish"],
+      "description": "Business Portuguese for non-native speakers, focusing on Brazilian Portuguese and the unique features of Brazilian business communication.",
+      "learningObjectives": [
+        "Conduct professional communications in Brazilian Portuguese",
+        "Write effective business emails and reports in Portuguese",
+        "Navigate Brazilian Portuguese colloquialisms in the workplace",
+        "Present confidently in Portuguese-language business settings"
+      ],
+      "audience": "Professionals engaging with Brazil",
+      "prerequisites": [],
+      "assessmentType": "Language proficiency test",
+      "certification": false,
+      "countries": ["Brazil"]
+    },
+    {
+      "id": "sa-008",
+      "title": "Mining & Natural Resources Safety (LATAM)",
+      "category": "health-safety",
+      "level": "Intermediate",
+      "duration": "6 hours",
+      "format": ["eLearning"],
+      "languages": ["Spanish", "Portuguese", "English"],
+      "description": "Safety and health training for mining, oil and gas, and natural resources operations in Latin America — Peru, Chile, Colombia, Brazil, and Bolivia.",
+      "learningObjectives": [
+        "Apply LATAM mining safety regulations and international standards",
+        "Implement risk controls for high-hazard extractive operations",
+        "Manage environmental and social impact in LATAM communities",
+        "Respond to emergency incidents in remote locations"
+      ],
+      "audience": "Operations and safety teams in extractive industries",
+      "prerequisites": ["Basic Safety Fundamentals"],
+      "assessmentType": "Safety competency assessment",
+      "certification": true,
+      "countries": ["Peru", "Chile", "Brazil", "Colombia", "Bolivia"]
+    },
+    {
+      "id": "sa-009",
+      "title": "Digital Banking & Fintech in Latin America",
+      "category": "digital",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["Spanish", "Portuguese", "English"],
+      "description": "Understanding LATAM's fintech revolution — PIX in Brazil, Nequi in Colombia, Mercado Pago — and the opportunity for financial inclusion across the region.",
+      "learningObjectives": [
+        "Understand the LATAM fintech ecosystem and key players",
+        "Apply Open Banking frameworks in Brazilian and Mexican markets",
+        "Manage digital payments and financial inclusion strategies",
+        "Navigate regulatory sandboxes across LATAM fintech markets"
+      ],
+      "audience": "Finance and technology teams",
+      "prerequisites": [],
+      "assessmentType": "Fintech knowledge quiz",
+      "certification": false,
+      "countries": ["Brazil", "Colombia", "Mexico", "Argentina", "Chile"]
+    },
+    {
+      "id": "sa-010",
+      "title": "Diversity in Latin America — Race, Ethnicity & Inclusion",
+      "category": "dei",
+      "level": "Intermediate",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["Spanish", "Portuguese", "English"],
+      "description": "DEI training addressing Latin America's complex racial, ethnic, and socioeconomic diversity — Afro-descendants, Indigenous peoples, and racial equity at work.",
+      "learningObjectives": [
+        "Understand racial and ethnic diversity in LATAM societies",
+        "Address racial equity and colorism in workplace decisions",
+        "Promote Indigenous rights and representation",
+        "Build socioeconomically inclusive workplaces"
+      ],
+      "audience": "All employees",
+      "prerequisites": [],
+      "assessmentType": "Reflection and action plan",
+      "certification": false,
+      "countries": ["Brazil", "Colombia", "Peru", "Ecuador", "Bolivia"]
+    },
+    {
+      "id": "sa-011",
+      "title": "Agribusiness & Sustainability in Brazil",
+      "category": "compliance",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["Portuguese", "English"],
+      "description": "Sustainability and compliance training for Brazil's agribusiness sector, covering deforestation law, Amazon protection, and ESG standards for supply chains.",
+      "learningObjectives": [
+        "Apply Brazil's Forest Code and deforestation monitoring requirements",
+        "Manage Amazon supply chain due diligence",
+        "Meet international ESG expectations for Brazilian agricultural exports",
+        "Implement sustainable farming practices"
+      ],
+      "audience": "Agribusiness, supply chain, and sustainability teams",
+      "prerequisites": [],
+      "assessmentType": "Compliance assessment",
+      "certification": true,
+      "countries": ["Brazil"]
+    },
+    {
+      "id": "sa-012",
+      "title": "Chile Business Excellence",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "2.5 hours",
+      "format": ["eLearning"],
+      "languages": ["Spanish", "English"],
+      "description": "Chile business culture and regulatory environment — Latin America's most stable economy with strong institutions and a sophisticated business community.",
+      "learningObjectives": [
+        "Understand Chilean business formality and professional norms",
+        "Navigate Chile's well-developed regulatory and legal environment",
+        "Build relationships in Santiago's corporate ecosystem",
+        "Identify business opportunities in Chile's key sectors"
+      ],
+      "audience": "Professionals engaging with Chile",
+      "prerequisites": [],
+      "assessmentType": "Cultural quiz",
+      "certification": false,
+      "countries": ["Chile"]
+    },
+    {
+      "id": "sa-013",
+      "title": "Mental Health & Wellbeing in LATAM",
+      "category": "health-safety",
+      "level": "Foundational",
+      "duration": "2.5 hours",
+      "format": ["eLearning"],
+      "languages": ["Spanish", "Portuguese"],
+      "description": "Workplace mental health support adapted for Latin American contexts, addressing stigma, machismo culture, and building psychologically safe teams.",
+      "learningObjectives": [
+        "Recognize mental health challenges in LATAM workplace cultures",
+        "Navigate machismo culture and its impact on help-seeking behavior",
+        "Create psychologically safe environments in LATAM teams",
+        "Access and promote mental health resources"
+      ],
+      "audience": "All employees",
+      "prerequisites": [],
+      "assessmentType": "Self-assessment",
+      "certification": false,
+      "countries": ["Brazil", "Argentina", "Colombia", "Chile", "Mexico"]
+    },
+    {
+      "id": "sa-014",
+      "title": "Spanish Language Immersion for Brazil",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "8 hours",
+      "format": ["eLearning", "Language Coaching"],
+      "languages": ["Portuguese"],
+      "description": "Business Spanish for Brazilian professionals working with Spanish-speaking Latin American counterparts across the region.",
+      "learningObjectives": [
+        "Communicate effectively in business Spanish",
+        "Navigate similarities and differences between Spanish and Portuguese",
+        "Build relationships with Spanish-speaking LATAM colleagues",
+        "Conduct meetings and negotiations in Spanish"
+      ],
+      "audience": "Brazilian professionals engaging with Spanish-speaking LATAM",
+      "prerequisites": [],
+      "assessmentType": "Language assessment",
+      "certification": false,
+      "countries": ["Brazil"]
+    },
+    {
+      "id": "sa-015",
+      "title": "Peru & Andean Business Culture",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "2.5 hours",
+      "format": ["eLearning"],
+      "languages": ["Spanish", "English"],
+      "description": "Business culture for Peru and the Andean region, covering Indigenous business traditions, mining sector dynamics, and Lima's cosmopolitan corporate culture.",
+      "learningObjectives": [
+        "Understand Peru's cultural diversity across Lima, coastal, and highland regions",
+        "Navigate community engagement requirements in extractive industries",
+        "Apply free, prior, and informed consent (FPIC) principles with Indigenous communities",
+        "Build trust with Peruvian government and business stakeholders"
+      ],
+      "audience": "Professionals engaging with Peru and Andean countries",
+      "prerequisites": [],
+      "assessmentType": "Cultural quiz",
+      "certification": false,
+      "countries": ["Peru", "Ecuador", "Bolivia"]
+    },
+    {
+      "id": "sa-016",
+      "title": "ESG Reporting for Latin American Companies",
+      "category": "compliance",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["Spanish", "Portuguese", "English"],
+      "description": "ESG disclosure and sustainability reporting training for LATAM companies, covering GRI, SASB, CDP, and stock exchange sustainability requirements.",
+      "learningObjectives": [
+        "Apply GRI Standards for sustainability reporting",
+        "Meet B3 (Brazil) and Santiago Stock Exchange ESG disclosure requirements",
+        "Complete CDP climate disclosure questionnaire",
+        "Integrate TCFD climate risk disclosures"
+      ],
+      "audience": "Finance, sustainability, and IR teams",
+      "prerequisites": [],
+      "assessmentType": "Reporting exercise",
+      "certification": false,
+      "countries": ["Brazil", "Colombia", "Chile", "Argentina", "Peru"]
+    }
+  ]
+}

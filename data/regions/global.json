@@ -1,0 +1,321 @@
+{
+  "region": "Global / Universal",
+  "regionId": "global",
+  "modules": [
+    {
+      "id": "gl-001",
+      "title": "Global Leadership Essentials",
+      "category": "leadership",
+      "level": "Foundational",
+      "duration": "6 hours",
+      "format": ["eLearning", "Virtual Classroom"],
+      "languages": ["English", "Mandarin", "French", "German", "Spanish", "Arabic", "Japanese", "Portuguese"],
+      "description": "Foundational leadership skills applicable across all cultures and geographies, covering situational leadership, emotional intelligence, and coaching.",
+      "learningObjectives": [
+        "Apply the four Situational Leadership styles",
+        "Develop emotional intelligence across its five domains",
+        "Coach team members using the GROW model",
+        "Give effective, behaviour-focused feedback"
+      ],
+      "audience": "All managers and aspiring leaders globally",
+      "prerequisites": [],
+      "assessmentType": "360-degree feedback + scenario quiz",
+      "certification": true,
+      "countries": ["All countries"]
+    },
+    {
+      "id": "gl-002",
+      "title": "Ethics & Code of Conduct",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "2 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "French", "German", "Spanish", "Arabic", "Japanese", "Portuguese", "Korean", "Italian", "Dutch", "Polish", "Turkish", "Hindi"],
+      "description": "Universal Code of Conduct training defining ethical behavior, conflict of interest management, and speaking-up culture applicable across all global operations.",
+      "learningObjectives": [
+        "Apply the organization's Code of Conduct in real-world scenarios",
+        "Identify and disclose conflicts of interest",
+        "Use reporting channels to raise ethical concerns",
+        "Model ethical leadership behavior"
+      ],
+      "audience": "All employees globally; mandatory",
+      "prerequisites": [],
+      "assessmentType": "Scenario-based ethics test (annual)",
+      "certification": true,
+      "countries": ["All countries"]
+    },
+    {
+      "id": "gl-003",
+      "title": "Unconscious Bias — Global Edition",
+      "category": "dei",
+      "level": "Foundational",
+      "duration": "2 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "French", "German", "Spanish", "Arabic", "Japanese", "Portuguese"],
+      "description": "Global unconscious bias awareness training with culturally localized examples, helping employees recognize and reduce bias in everyday decisions.",
+      "learningObjectives": [
+        "Identify major categories of unconscious bias",
+        "Recognize personal bias patterns through self-reflection",
+        "Apply bias-mitigation strategies in hiring and promotion",
+        "Foster more equitable team interactions"
+      ],
+      "audience": "All employees globally",
+      "prerequisites": [],
+      "assessmentType": "Reflection exercises + knowledge check",
+      "certification": false,
+      "countries": ["All countries"]
+    },
+    {
+      "id": "gl-004",
+      "title": "Cybersecurity Fundamentals — Global",
+      "category": "technical",
+      "level": "Foundational",
+      "duration": "2 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "French", "German", "Spanish", "Arabic", "Japanese", "Portuguese", "Korean", "Italian", "Dutch", "Polish"],
+      "description": "Essential cybersecurity awareness for all employees covering phishing, password security, safe browsing, and device management — mandatory globally.",
+      "learningObjectives": [
+        "Recognize phishing, smishing, and vishing attempts",
+        "Apply strong authentication practices",
+        "Safely use company devices and networks",
+        "Report security incidents through the correct channels"
+      ],
+      "audience": "All employees globally; mandatory",
+      "prerequisites": [],
+      "assessmentType": "Phishing simulation + knowledge test (annual)",
+      "certification": true,
+      "countries": ["All countries"]
+    },
+    {
+      "id": "gl-005",
+      "title": "Global Anti-Bribery & Corruption",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "2.5 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "French", "German", "Spanish", "Arabic", "Japanese", "Portuguese"],
+      "description": "Core anti-bribery and corruption training aligned with FCPA, UK Bribery Act, and global best practices, applicable to all employees worldwide.",
+      "learningObjectives": [
+        "Understand FCPA and UK Bribery Act global reach",
+        "Apply appropriate gifts and hospitality policies",
+        "Conduct adequate third-party due diligence",
+        "Report bribery and corruption concerns promptly"
+      ],
+      "audience": "All employees globally; mandatory",
+      "prerequisites": [],
+      "assessmentType": "Compliance test (annual)",
+      "certification": true,
+      "countries": ["All countries"]
+    },
+    {
+      "id": "gl-006",
+      "title": "Cultural Intelligence (CQ) — Introduction",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "French", "German", "Spanish"],
+      "description": "Introduction to Cultural Intelligence (CQ) using Hofstede, Meyer, and Trompenaars frameworks to build cross-cultural awareness and adaptation skills.",
+      "learningObjectives": [
+        "Understand key cultural dimension frameworks",
+        "Assess your own cultural background and its business impact",
+        "Identify cultural differences in communication and decision-making styles",
+        "Adapt your approach to diverse cultural contexts"
+      ],
+      "audience": "All employees in cross-border roles",
+      "prerequisites": [],
+      "assessmentType": "CQ self-assessment",
+      "certification": false,
+      "countries": ["All countries"]
+    },
+    {
+      "id": "gl-007",
+      "title": "Data Privacy Fundamentals — Global",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "1.5 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "French", "German", "Spanish", "Arabic", "Japanese", "Portuguese"],
+      "description": "Global data privacy fundamentals covering core principles applicable across GDPR, CCPA, PDPA, LGPD, and other major privacy regimes.",
+      "learningObjectives": [
+        "Apply universal data privacy principles across regulatory contexts",
+        "Handle personal data with appropriate care and purpose limitation",
+        "Recognize privacy risks and escalate appropriately",
+        "Respect individual rights over their personal data"
+      ],
+      "audience": "All employees globally",
+      "prerequisites": [],
+      "assessmentType": "Privacy knowledge check",
+      "certification": false,
+      "countries": ["All countries"]
+    },
+    {
+      "id": "gl-008",
+      "title": "Mental Health Awareness — Global",
+      "category": "health-safety",
+      "level": "Foundational",
+      "duration": "2 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "French", "German", "Spanish", "Arabic", "Japanese", "Portuguese"],
+      "description": "Global mental health awareness training helping all employees recognize stress, anxiety, and burnout, and access support resources worldwide.",
+      "learningObjectives": [
+        "Recognize common mental health conditions and their workplace signals",
+        "Understand the impact of mental health on performance and wellbeing",
+        "Access Employee Assistance Programs and global support resources",
+        "Support colleagues experiencing mental health challenges"
+      ],
+      "audience": "All employees globally",
+      "prerequisites": [],
+      "assessmentType": "Wellbeing self-assessment",
+      "certification": false,
+      "countries": ["All countries"]
+    },
+    {
+      "id": "gl-009",
+      "title": "Global Communication & Collaboration",
+      "category": "communication",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English"],
+      "description": "Effective communication and collaboration skills for global teams, covering virtual meeting management, asynchronous communication, and cross-cultural collaboration.",
+      "learningObjectives": [
+        "Facilitate effective virtual meetings across time zones",
+        "Write clear, culturally inclusive global communications",
+        "Manage asynchronous collaboration tools effectively",
+        "Navigate cross-cultural communication challenges"
+      ],
+      "audience": "All employees in global roles",
+      "prerequisites": [],
+      "assessmentType": "Practical communication assessment",
+      "certification": false,
+      "countries": ["All countries"]
+    },
+    {
+      "id": "gl-010",
+      "title": "Sustainability & ESG — Global Foundations",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "2 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "French", "German", "Spanish", "Arabic", "Japanese", "Portuguese"],
+      "description": "Universal ESG and sustainability foundations helping all employees understand the organization's sustainability commitments and their role in achieving them.",
+      "learningObjectives": [
+        "Understand the business case for sustainability and ESG",
+        "Apply the 17 UN Sustainable Development Goals to business operations",
+        "Contribute to the organization's net-zero targets",
+        "Make sustainable decisions in daily work"
+      ],
+      "audience": "All employees globally",
+      "prerequisites": [],
+      "assessmentType": "Sustainability knowledge check",
+      "certification": false,
+      "countries": ["All countries"]
+    },
+    {
+      "id": "gl-011",
+      "title": "Modern Slavery Awareness — Global",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "1.5 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "French", "German", "Spanish", "Arabic"],
+      "description": "Global modern slavery awareness for all employees, covering indicators of exploitation, supply chain risks, and reporting mechanisms.",
+      "learningObjectives": [
+        "Recognize modern slavery, forced labor, and human trafficking indicators",
+        "Understand supply chain modern slavery risks in your sector",
+        "Report modern slavery concerns through the correct channels",
+        "Apply the UN Guiding Principles on Business and Human Rights"
+      ],
+      "audience": "All employees globally",
+      "prerequisites": [],
+      "assessmentType": "Knowledge check",
+      "certification": false,
+      "countries": ["All countries"]
+    },
+    {
+      "id": "gl-012",
+      "title": "AI Literacy for Business Professionals",
+      "category": "digital",
+      "level": "Foundational",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "French", "German", "Spanish", "Japanese"],
+      "description": "Practical AI literacy for business professionals — understanding AI capabilities, responsible use of generative AI tools, and AI-augmented work practices.",
+      "learningObjectives": [
+        "Understand AI, machine learning, and generative AI fundamentals",
+        "Use AI tools productively and responsibly in your role",
+        "Identify appropriate and inappropriate use cases for AI",
+        "Apply critical thinking to AI-generated outputs"
+      ],
+      "audience": "All employees globally",
+      "prerequisites": [],
+      "assessmentType": "AI literacy assessment",
+      "certification": true,
+      "countries": ["All countries"]
+    },
+    {
+      "id": "gl-013",
+      "title": "Inclusive Communication — Global",
+      "category": "dei",
+      "level": "Foundational",
+      "duration": "2 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "French", "German", "Spanish", "Arabic", "Japanese", "Portuguese"],
+      "description": "Building inclusive communication habits — respectful language, active listening, amplification, and navigating difficult conversations across all global contexts.",
+      "learningObjectives": [
+        "Use inclusive, respectful language in all communications",
+        "Practice active listening that validates all voices",
+        "Amplify marginalized perspectives in group settings",
+        "Navigate microaggressions and correct them constructively"
+      ],
+      "audience": "All employees globally",
+      "prerequisites": [],
+      "assessmentType": "Communication scenarios quiz",
+      "certification": false,
+      "countries": ["All countries"]
+    },
+    {
+      "id": "gl-014",
+      "title": "Financial Acumen for Non-Finance Managers",
+      "category": "finance",
+      "level": "Intermediate",
+      "duration": "5 hours",
+      "format": ["eLearning", "Virtual Workshop"],
+      "languages": ["English", "Mandarin", "French", "German", "Spanish"],
+      "description": "Building financial literacy for managers who don't have a finance background — P&L, balance sheet, cash flow, budgeting, and business case development.",
+      "learningObjectives": [
+        "Read and interpret P&L, balance sheet, and cash flow statements",
+        "Build and manage departmental budgets",
+        "Develop compelling business cases with financial justification",
+        "Apply ROI and payback analysis"
+      ],
+      "audience": "Non-finance managers and team leads globally",
+      "prerequisites": [],
+      "assessmentType": "Financial case study",
+      "certification": false,
+      "countries": ["All countries"]
+    },
+    {
+      "id": "gl-015",
+      "title": "Instructional Design Practitioner",
+      "category": "technical",
+      "level": "Advanced",
+      "duration": "20 hours",
+      "format": ["eLearning", "Mentored Practice"],
+      "languages": ["English"],
+      "description": "Professional development for L&D practitioners — covering ADDIE, SAM, Bloom's taxonomy, learning needs analysis, and global content localization.",
+      "learningObjectives": [
+        "Apply ADDIE and SAM instructional design models",
+        "Conduct global learning needs analyses",
+        "Design for diverse learning styles and cultural contexts",
+        "Develop, pilot, and evaluate L&D programs for global audiences"
+      ],
+      "audience": "L&D professionals and instructional designers",
+      "prerequisites": ["L&D Foundations"],
+      "assessmentType": "Portfolio-based assessment",
+      "certification": true,
+      "countries": ["All countries"]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TigyWigy — Global L&D Platform</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="brand-icon">🌍</span>
+      <span class="brand-name">TigyWigy</span>
+      <span class="brand-tagline">Global L&amp;D Platform</span>
+    </div>
+    <div class="nav-links">
+      <a href="#dashboard" class="nav-link active" data-view="dashboard">Dashboard</a>
+      <a href="#modules" class="nav-link" data-view="modules">Modules</a>
+      <a href="#regions" class="nav-link" data-view="regions">Regions</a>
+      <a href="#framework" class="nav-link" data-view="framework">ID Framework</a>
+    </div>
+    <div class="nav-actions">
+      <input type="text" class="search-input" id="globalSearch" placeholder="Search modules..." />
+      <select class="lang-select" id="languageFilter">
+        <option value="">All Languages</option>
+        <option value="English">English</option>
+        <option value="Mandarin">Mandarin</option>
+        <option value="Spanish">Spanish</option>
+        <option value="French">French</option>
+        <option value="Arabic">Arabic</option>
+        <option value="German">German</option>
+        <option value="Portuguese">Portuguese</option>
+        <option value="Japanese">Japanese</option>
+        <option value="Korean">Korean</option>
+      </select>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- Dashboard View -->
+    <section id="view-dashboard" class="view active">
+      <div class="hero-section">
+        <div class="hero-content">
+          <h1 class="hero-title">World-Class Learning,<br>Everywhere.</h1>
+          <p class="hero-subtitle">120 modules across 7 world regions, 24 languages, and 10 learning categories — built on proven instructional design principles.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" onclick="switchView('modules')">Explore Modules</button>
+            <button class="btn btn-secondary" onclick="switchView('regions')">Browse by Region</button>
+          </div>
+        </div>
+        <div class="hero-globe">
+          <div class="globe-visual">
+            <div class="globe-ring ring-1"></div>
+            <div class="globe-ring ring-2"></div>
+            <div class="globe-ring ring-3"></div>
+            <div class="globe-center">🌍</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats Bar -->
+      <div class="stats-bar">
+        <div class="stat-item">
+          <span class="stat-number" id="stat-modules">120</span>
+          <span class="stat-label">Learning Modules</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">7</span>
+          <span class="stat-label">World Regions</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">24</span>
+          <span class="stat-label">Languages</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">10</span>
+          <span class="stat-label">Learning Categories</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">50+</span>
+          <span class="stat-label">Countries Covered</span>
+        </div>
+      </div>
+
+      <!-- Region Cards -->
+      <div class="section-header">
+        <h2 class="section-title">Browse by Region</h2>
+        <p class="section-subtitle">Culturally contextualised learning modules designed for each region's regulatory, cultural, and business landscape.</p>
+      </div>
+      <div class="region-grid" id="regionGrid"></div>
+
+      <!-- Category Overview -->
+      <div class="section-header">
+        <h2 class="section-title">Learning Categories</h2>
+        <p class="section-subtitle">Ten comprehensive categories covering all dimensions of professional development.</p>
+      </div>
+      <div class="category-grid" id="categoryGrid"></div>
+
+      <!-- Featured Modules -->
+      <div class="section-header">
+        <h2 class="section-title">Featured Global Modules</h2>
+        <p class="section-subtitle">High-impact modules available across all regions, mandatory for global operations.</p>
+      </div>
+      <div class="module-grid" id="featuredModules"></div>
+    </section>
+
+    <!-- Modules View -->
+    <section id="view-modules" class="view">
+      <div class="view-header">
+        <h2 class="view-title">All Modules</h2>
+        <p class="view-desc">Browse all 120 learning modules across all regions and categories.</p>
+      </div>
+      <div class="filter-bar">
+        <div class="filter-group">
+          <label>Region</label>
+          <select id="regionFilter" class="filter-select">
+            <option value="">All Regions</option>
+            <option value="north-america">North America</option>
+            <option value="south-america">South America</option>
+            <option value="europe">Europe</option>
+            <option value="africa">Africa</option>
+            <option value="middle-east">Middle East</option>
+            <option value="asia-pacific">Asia Pacific</option>
+            <option value="global">Global</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Category</label>
+          <select id="categoryFilter" class="filter-select">
+            <option value="">All Categories</option>
+            <option value="leadership">Leadership Development</option>
+            <option value="technical">Technical Skills</option>
+            <option value="compliance">Compliance & Ethics</option>
+            <option value="dei">Diversity, Equity & Inclusion</option>
+            <option value="digital">Digital Transformation</option>
+            <option value="communication">Communication & Soft Skills</option>
+            <option value="health-safety">Health, Safety & Wellbeing</option>
+            <option value="cultural">Cultural Intelligence</option>
+            <option value="sales">Sales & Customer Excellence</option>
+            <option value="finance">Finance & Business Acumen</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Level</label>
+          <select id="levelFilter" class="filter-select">
+            <option value="">All Levels</option>
+            <option value="Foundational">Foundational</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Format</label>
+          <select id="formatFilter" class="filter-select">
+            <option value="">All Formats</option>
+            <option value="eLearning">eLearning</option>
+            <option value="Workshop">Workshop</option>
+            <option value="Virtual Classroom">Virtual Classroom</option>
+            <option value="Coaching">Coaching</option>
+          </select>
+        </div>
+        <button class="btn btn-outline" onclick="clearFilters()">Clear Filters</button>
+      </div>
+      <div class="results-bar">
+        <span class="results-count" id="resultsCount">Loading modules...</span>
+      </div>
+      <div class="module-grid" id="allModulesGrid"></div>
+    </section>
+
+    <!-- Regions View -->
+    <section id="view-regions" class="view">
+      <div class="view-header">
+        <h2 class="view-title">World Regions</h2>
+        <p class="view-desc">Explore modules by geographic region, each curated for local regulatory, cultural, and business contexts.</p>
+      </div>
+      <div class="world-map-container">
+        <div class="world-regions-list" id="worldRegionsList"></div>
+      </div>
+    </section>
+
+    <!-- ID Framework View -->
+    <section id="view-framework" class="view">
+      <div class="view-header">
+        <h2 class="view-title">Instructional Design Framework</h2>
+        <p class="view-desc">TigyWigy's global L&D is built on evidence-based instructional design principles ensuring consistent quality across all markets.</p>
+      </div>
+      <div class="framework-content" id="frameworkContent"></div>
+    </section>
+
+  </main>
+
+  <!-- Module Detail Modal -->
+  <div class="modal-overlay" id="moduleModal">
+    <div class="modal-container">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+      <div class="modal-content" id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <span class="brand-icon">🌍</span>
+        <span class="brand-name">TigyWigy</span>
+      </div>
+      <p class="footer-tagline">Empowering talent worldwide through world-class learning.</p>
+      <div class="footer-stats">
+        <span>120 Modules</span> · <span>7 Regions</span> · <span>24 Languages</span> · <span>50+ Countries</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

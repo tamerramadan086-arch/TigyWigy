@@ -1,0 +1,468 @@
+{
+  "region": "Asia Pacific",
+  "regionId": "asia-pacific",
+  "modules": [
+    {
+      "id": "apac-001",
+      "title": "Leadership in High-Context Cultures",
+      "category": "leadership",
+      "level": "Intermediate",
+      "duration": "5 hours",
+      "format": ["eLearning", "Virtual Classroom"],
+      "languages": ["English", "Mandarin", "Japanese", "Korean"],
+      "description": "Leading effectively in Asian high-context cultures, covering face-saving, hierarchy, group harmony, and indirect communication styles prevalent across APAC.",
+      "learningObjectives": [
+        "Understand high-context vs. low-context cultural communication",
+        "Navigate face-saving dynamics in performance conversations",
+        "Lead with appropriate hierarchy awareness across APAC cultures",
+        "Build trust and guanxi/relationships for business success"
+      ],
+      "audience": "Regional managers and international professionals",
+      "prerequisites": [],
+      "assessmentType": "Cultural scenario analysis",
+      "certification": false,
+      "countries": ["China", "Japan", "South Korea", "Singapore", "Malaysia", "Indonesia", "Thailand", "Vietnam"]
+    },
+    {
+      "id": "apac-002",
+      "title": "China Business & Culture Essentials",
+      "category": "cultural",
+      "level": "Intermediate",
+      "duration": "6 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin"],
+      "description": "Essential training on Chinese business culture, guanxi networks, negotiation styles, and regulatory environment for professionals engaging with China.",
+      "learningObjectives": [
+        "Build and leverage guanxi (relationship networks) effectively",
+        "Navigate Chinese negotiation tactics and strategies",
+        "Understand the role of the Communist Party in business operations",
+        "Manage face (mianzi) in business interactions"
+      ],
+      "audience": "Business professionals with China exposure",
+      "prerequisites": [],
+      "assessmentType": "Scenario-based quiz",
+      "certification": false,
+      "countries": ["China", "Hong Kong", "Taiwan"]
+    },
+    {
+      "id": "apac-003",
+      "title": "Japan Business Protocol",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Japanese"],
+      "description": "Business etiquette training for Japan covering meishi (business card) exchange, nemawashi, ringi decision-making, and omotenashi service culture.",
+      "learningObjectives": [
+        "Apply correct meishi exchange protocols",
+        "Navigate nemawashi and ringi group decision-making processes",
+        "Understand the concept of omotenashi in customer service",
+        "Read non-verbal communication cues in Japanese business"
+      ],
+      "audience": "Professionals working with Japanese teams or clients",
+      "prerequisites": [],
+      "assessmentType": "Cultural knowledge quiz",
+      "certification": false,
+      "countries": ["Japan"]
+    },
+    {
+      "id": "apac-004",
+      "title": "Data Privacy in Asia Pacific (PDPA, PIPL, Privacy Act)",
+      "category": "compliance",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "Japanese"],
+      "description": "Regional data privacy compliance covering China PIPL, Singapore PDPA, Australia Privacy Act, South Korea PIPA, and Japan APPI.",
+      "learningObjectives": [
+        "Understand key requirements of major APAC privacy laws",
+        "Implement appropriate consent and notice mechanisms",
+        "Manage cross-border data transfers in APAC",
+        "Respond to data subject requests under different national regimes"
+      ],
+      "audience": "All employees handling personal data",
+      "prerequisites": [],
+      "assessmentType": "Regulatory knowledge test",
+      "certification": true,
+      "countries": ["China", "Singapore", "Australia", "Japan", "South Korea", "India", "Thailand", "Philippines"]
+    },
+    {
+      "id": "apac-005",
+      "title": "Mandarin for Business Professionals",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "15 hours",
+      "format": ["eLearning", "Language Coaching"],
+      "languages": ["English"],
+      "description": "Business Mandarin essentials for non-native speakers working with China, Taiwan, and Singapore-based colleagues and clients.",
+      "learningObjectives": [
+        "Conduct introductions and greetings in Mandarin",
+        "Communicate basic business needs and requests",
+        "Read and write key business characters",
+        "Use Mandarin in meeting and email contexts"
+      ],
+      "audience": "International professionals with China/Taiwan exposure",
+      "prerequisites": [],
+      "assessmentType": "Language proficiency assessment",
+      "certification": false,
+      "countries": ["China", "Taiwan", "Singapore"]
+    },
+    {
+      "id": "apac-006",
+      "title": "Anti-Corruption & Bribery in Asia",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "Japanese", "Korean", "Bahasa Indonesia", "Thai"],
+      "description": "Anti-bribery and corruption training addressing high-risk markets across Asia, aligned with local laws and FCPA/UK Bribery Act requirements.",
+      "learningObjectives": [
+        "Recognize corruption red flags in Asian business contexts",
+        "Manage gifts and hospitality appropriately in high-risk markets",
+        "Conduct due diligence on Asian agents and distributors",
+        "Report corruption concerns through proper channels"
+      ],
+      "audience": "All employees; essential for those in high-risk markets",
+      "prerequisites": [],
+      "assessmentType": "Scenario-based assessment",
+      "certification": true,
+      "countries": ["China", "Indonesia", "Thailand", "Vietnam", "Philippines", "India", "Malaysia"]
+    },
+    {
+      "id": "apac-007",
+      "title": "Digital Transformation & Industry 4.0",
+      "category": "digital",
+      "level": "Intermediate",
+      "duration": "8 hours",
+      "format": ["eLearning", "Workshop"],
+      "languages": ["English", "Mandarin", "Japanese"],
+      "description": "Leading digital transformation using technologies driving APAC's Industry 4.0 revolution: AI, IoT, automation, and cloud computing.",
+      "learningObjectives": [
+        "Understand APAC's digital transformation landscape and leadership position",
+        "Apply digital transformation frameworks to business operations",
+        "Lead organizational change through technology adoption",
+        "Evaluate AI, IoT, and automation opportunities"
+      ],
+      "audience": "Managers, technology leads, and business strategists",
+      "prerequisites": ["Digital Fundamentals"],
+      "assessmentType": "Digital transformation plan",
+      "certification": true,
+      "countries": ["China", "Japan", "South Korea", "Singapore", "Australia", "India"]
+    },
+    {
+      "id": "apac-008",
+      "title": "India Business Culture & Diversity",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Hindi"],
+      "description": "Understanding India's diverse cultural, religious, and linguistic landscape for effective business collaboration across India's regional diversity.",
+      "learningObjectives": [
+        "Navigate India's extraordinary regional and linguistic diversity",
+        "Understand the role of hierarchy and respect in Indian business",
+        "Manage time and relationship expectations in Indian contexts",
+        "Adapt communication for different Indian regional cultures"
+      ],
+      "audience": "International professionals working with Indian teams",
+      "prerequisites": [],
+      "assessmentType": "Cultural knowledge quiz",
+      "certification": false,
+      "countries": ["India"]
+    },
+    {
+      "id": "apac-009",
+      "title": "Workplace Safety Standards in Australia",
+      "category": "health-safety",
+      "level": "Foundational",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["English"],
+      "description": "Work Health and Safety (WHS) Act-aligned training for Australian operations covering hazard identification, safe work procedures, and incident reporting.",
+      "learningObjectives": [
+        "Understand duties under Australian WHS/OHS legislation",
+        "Conduct workplace hazard identification and risk assessments",
+        "Implement safe work method statements",
+        "Report and investigate workplace incidents"
+      ],
+      "audience": "All Australian employees; mandatory",
+      "prerequisites": [],
+      "assessmentType": "Regulatory compliance test",
+      "certification": true,
+      "countries": ["Australia", "New Zealand"]
+    },
+    {
+      "id": "apac-010",
+      "title": "ASEAN Market Entry & Operations",
+      "category": "finance",
+      "level": "Advanced",
+      "duration": "6 hours",
+      "format": ["eLearning", "Workshop"],
+      "languages": ["English"],
+      "description": "Business strategy and operational knowledge for entering and scaling in Southeast Asian markets: Indonesia, Thailand, Vietnam, Philippines, and Malaysia.",
+      "learningObjectives": [
+        "Assess market entry strategies for ASEAN economies",
+        "Navigate regulatory and compliance landscape across ASEAN",
+        "Build distributor and partner networks in Southeast Asia",
+        "Manage cultural diversity across ASEAN operations"
+      ],
+      "audience": "Business development and strategy teams",
+      "prerequisites": [],
+      "assessmentType": "Market entry case study",
+      "certification": false,
+      "countries": ["Singapore", "Indonesia", "Thailand", "Vietnam", "Philippines", "Malaysia"]
+    },
+    {
+      "id": "apac-011",
+      "title": "Korean Business Culture & Hierarchies",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "2.5 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Korean"],
+      "description": "Understanding Korean corporate culture, Chaebol structures, bali bali work culture, and relationship-building norms for international professionals.",
+      "learningObjectives": [
+        "Navigate Korean hierarchical business norms and honorifics",
+        "Understand the dynamics of Chaebol corporate structures",
+        "Adapt to bali-bali (fast-paced) work culture",
+        "Build trust through appropriate social engagement"
+      ],
+      "audience": "Professionals working with Korean teams or companies",
+      "prerequisites": [],
+      "assessmentType": "Cultural scenario quiz",
+      "certification": false,
+      "countries": ["South Korea"]
+    },
+    {
+      "id": "apac-012",
+      "title": "Modern Slavery & Human Rights Due Diligence",
+      "category": "compliance",
+      "level": "Intermediate",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English"],
+      "description": "Training on Australia's Modern Slavery Act and supply chain due diligence requirements, including risk identification and reporting.",
+      "learningObjectives": [
+        "Identify modern slavery risks in operations and supply chains",
+        "Conduct human rights due diligence assessments",
+        "Prepare Modern Slavery Act annual statements",
+        "Respond to identified modern slavery risks"
+      ],
+      "audience": "Procurement, supply chain, and compliance teams",
+      "prerequisites": [],
+      "assessmentType": "Compliance assessment",
+      "certification": true,
+      "countries": ["Australia", "New Zealand"]
+    },
+    {
+      "id": "apac-013",
+      "title": "Singapore Workplace Harmony",
+      "category": "dei",
+      "level": "Foundational",
+      "duration": "2 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "Malay", "Tamil"],
+      "description": "Singapore Tripartite Alliance for Fair and Progressive Employment Practices (TAFEP)-aligned training on racial, religious, and cultural harmony at work.",
+      "learningObjectives": [
+        "Apply TAFEP guidelines for fair employment",
+        "Navigate Singapore's multicultural Chinese-Malay-Indian-Eurasian workforce",
+        "Manage religious and cultural practices in the workplace",
+        "Promote racial harmony in diverse Singapore teams"
+      ],
+      "audience": "All Singapore-based employees",
+      "prerequisites": [],
+      "assessmentType": "Knowledge check",
+      "certification": true,
+      "countries": ["Singapore"]
+    },
+    {
+      "id": "apac-014",
+      "title": "Sustainable Business in Asia",
+      "category": "compliance",
+      "level": "Intermediate",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "Japanese"],
+      "description": "ESG and sustainability training tailored to the Asian context, covering climate commitments, SGX sustainability reporting, and green finance.",
+      "learningObjectives": [
+        "Understand Asian governments' net-zero commitments and business implications",
+        "Apply SGX sustainability reporting requirements (Singapore)",
+        "Navigate green finance frameworks in Asian markets",
+        "Implement sustainable supply chain practices in Asia"
+      ],
+      "audience": "Sustainability, finance, and operations teams",
+      "prerequisites": [],
+      "assessmentType": "Knowledge check",
+      "certification": false,
+      "countries": ["Singapore", "Japan", "South Korea", "Australia", "China"]
+    },
+    {
+      "id": "apac-015",
+      "title": "Mental Wellbeing in Asian Work Cultures",
+      "category": "health-safety",
+      "level": "Foundational",
+      "duration": "2.5 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "Japanese", "Korean"],
+      "description": "Mental health awareness training adapted for Asian work cultures where stigma is high, addressing burnout, stress, and help-seeking behavior.",
+      "learningObjectives": [
+        "Recognize mental health challenges in high-pressure Asian work environments",
+        "Navigate stigma around mental health in collectivist cultures",
+        "Access appropriate support and resources",
+        "Support colleagues experiencing mental health challenges"
+      ],
+      "audience": "All employees",
+      "prerequisites": [],
+      "assessmentType": "Self-assessment and reflection",
+      "certification": false,
+      "countries": ["Japan", "South Korea", "China", "Singapore", "Hong Kong"]
+    },
+    {
+      "id": "apac-016",
+      "title": "Cybersecurity in APAC Digital Economy",
+      "category": "technical",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "Japanese"],
+      "description": "Cybersecurity training addressing the unique threat landscape in Asia Pacific, including state-sponsored threats, mobile payment security, and fintech risks.",
+      "learningObjectives": [
+        "Identify APAC-specific cybersecurity threats and attack vectors",
+        "Secure mobile payments and digital transactions",
+        "Protect sensitive business data in cloud-first environments",
+        "Respond to cybersecurity incidents"
+      ],
+      "audience": "Technology and business teams",
+      "prerequisites": ["Cybersecurity Fundamentals"],
+      "assessmentType": "Security knowledge test",
+      "certification": true,
+      "countries": ["All APAC countries"]
+    },
+    {
+      "id": "apac-017",
+      "title": "Customer Experience in APAC Markets",
+      "category": "sales",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning", "Workshop"],
+      "languages": ["English", "Mandarin", "Japanese"],
+      "description": "Delivering exceptional customer experiences aligned with Asia Pacific consumer expectations, digitally-led journeys, and relationship-centric service models.",
+      "learningObjectives": [
+        "Map APAC customer journeys across digital and physical touchpoints",
+        "Apply cultural nuances in customer service interactions",
+        "Leverage super-apps and digital platforms for customer engagement",
+        "Measure and improve APAC customer satisfaction metrics"
+      ],
+      "audience": "Customer experience and service teams",
+      "prerequisites": [],
+      "assessmentType": "Customer journey project",
+      "certification": false,
+      "countries": ["All APAC countries"]
+    },
+    {
+      "id": "apac-018",
+      "title": "Financial Modeling & Analysis",
+      "category": "finance",
+      "level": "Advanced",
+      "duration": "12 hours",
+      "format": ["eLearning", "Workshop"],
+      "languages": ["English"],
+      "description": "Advanced financial modeling skills for Asia Pacific business environments, covering DCF, M&A modeling, and regional accounting standards.",
+      "learningObjectives": [
+        "Build robust DCF and LBO financial models",
+        "Apply IFRS and local GAAP requirements",
+        "Conduct sensitivity and scenario analysis",
+        "Present financial models to stakeholders"
+      ],
+      "audience": "Finance, strategy, and investment professionals",
+      "prerequisites": ["Financial Analysis Fundamentals"],
+      "assessmentType": "Financial modeling assessment",
+      "certification": true,
+      "countries": ["All APAC countries"]
+    },
+    {
+      "id": "apac-019",
+      "title": "Innovation & Startup Ecosystem in Asia",
+      "category": "digital",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin"],
+      "description": "Understanding Asia's vibrant startup ecosystem — from China's tech giants to Singapore's fintech hub — and how established companies can partner and innovate.",
+      "learningObjectives": [
+        "Map APAC startup and innovation ecosystems by sector and country",
+        "Apply corporate venture and open innovation models",
+        "Partner effectively with startups in APAC",
+        "Draw insights from Asian tech giants' innovation practices"
+      ],
+      "audience": "Strategy, innovation, and business development teams",
+      "prerequisites": [],
+      "assessmentType": "Innovation partnership plan",
+      "certification": false,
+      "countries": ["China", "Singapore", "India", "South Korea", "Japan", "Indonesia"]
+    },
+    {
+      "id": "apac-020",
+      "title": "Export Controls & Trade Compliance",
+      "category": "compliance",
+      "level": "Advanced",
+      "duration": "5 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "Japanese"],
+      "description": "Export control compliance for APAC operations, covering US EAR/ITAR, China export controls, and sanctions affecting cross-border trade.",
+      "learningObjectives": [
+        "Identify controlled items under US EAR and ITAR",
+        "Navigate China's export control law requirements",
+        "Screen customers and transactions against sanctions lists",
+        "Maintain export control compliance programs"
+      ],
+      "audience": "Trade, supply chain, legal, and compliance teams",
+      "prerequisites": [],
+      "assessmentType": "Compliance examination",
+      "certification": true,
+      "countries": ["China", "Japan", "South Korea", "Singapore", "Australia"]
+    },
+    {
+      "id": "apac-021",
+      "title": "Diversity & Inclusion in APAC",
+      "category": "dei",
+      "level": "Intermediate",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Mandarin", "Japanese"],
+      "description": "DEI training adapted for Asian contexts, addressing gender equity in patriarchal work cultures, caste discrimination, and multi-ethnic team dynamics.",
+      "learningObjectives": [
+        "Address gender equity challenges in APAC corporate cultures",
+        "Promote inclusion across ethnic, religious, and linguistic diversity",
+        "Navigate caste and class dynamics in South Asian teams",
+        "Build age-inclusive practices in traditional hierarchies"
+      ],
+      "audience": "All employees",
+      "prerequisites": [],
+      "assessmentType": "Reflection and knowledge check",
+      "certification": false,
+      "countries": ["All APAC countries"]
+    },
+    {
+      "id": "apac-022",
+      "title": "Resilience & Performance Under Pressure",
+      "category": "health-safety",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning", "Coaching"],
+      "languages": ["English", "Mandarin", "Japanese", "Korean"],
+      "description": "Building mental resilience and sustainable high performance, addressing the intense work pressures common in APAC corporate environments.",
+      "learningObjectives": [
+        "Apply evidence-based resilience techniques",
+        "Establish sustainable high-performance habits",
+        "Recover effectively from setbacks",
+        "Support team wellbeing while maintaining performance"
+      ],
+      "audience": "High-performing professionals in demanding roles",
+      "prerequisites": [],
+      "assessmentType": "Personal resilience plan",
+      "certification": false,
+      "countries": ["All APAC countries"]
+    }
+  ]
+}

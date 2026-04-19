@@ -1,0 +1,321 @@
+{
+  "region": "Africa",
+  "regionId": "africa",
+  "modules": [
+    {
+      "id": "af-001",
+      "title": "Ubuntu Leadership Philosophy",
+      "category": "leadership",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning", "Workshop"],
+      "languages": ["English", "French", "Swahili", "Afrikaans"],
+      "description": "Leadership development rooted in the African Ubuntu philosophy — 'I am because we are' — integrating collective wisdom with modern management practices.",
+      "learningObjectives": [
+        "Apply Ubuntu principles to team leadership and decision-making",
+        "Balance collective and individual accountability in African workplaces",
+        "Build consensus through inclusive dialogue practices",
+        "Leverage African oral tradition in organizational storytelling"
+      ],
+      "audience": "Managers and team leads",
+      "prerequisites": [],
+      "assessmentType": "Leadership reflection and case study",
+      "certification": false,
+      "countries": ["South Africa", "Kenya", "Tanzania", "Uganda", "Rwanda", "Zimbabwe", "Zambia"]
+    },
+    {
+      "id": "af-002",
+      "title": "South African Labour Law Compliance",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Afrikaans"],
+      "description": "Comprehensive South African employment compliance covering the Labour Relations Act, Basic Conditions of Employment Act, Employment Equity Act, and BBBEE.",
+      "learningObjectives": [
+        "Apply key provisions of South African labour legislation",
+        "Manage disciplinary and grievance processes per LRA",
+        "Meet Employment Equity Act reporting obligations",
+        "Understand BBBEE scorecard requirements"
+      ],
+      "audience": "HR teams and managers in South Africa",
+      "prerequisites": [],
+      "assessmentType": "Regulatory compliance test",
+      "certification": true,
+      "countries": ["South Africa"]
+    },
+    {
+      "id": "af-003",
+      "title": "Doing Business in Nigeria",
+      "category": "cultural",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["English"],
+      "description": "Business culture, relationship-building, regulatory navigation, and market entry insights for professionals operating in Nigeria's dynamic economy.",
+      "learningObjectives": [
+        "Navigate Nigerian business culture and relationship norms",
+        "Understand the regulatory and informal business environment",
+        "Build effective networks across Nigeria's diverse ethnic groups",
+        "Manage business risk in a high-opportunity, high-complexity market"
+      ],
+      "audience": "Business professionals with Nigeria exposure",
+      "prerequisites": [],
+      "assessmentType": "Case study quiz",
+      "certification": false,
+      "countries": ["Nigeria"]
+    },
+    {
+      "id": "af-004",
+      "title": "East African Community Business",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Swahili"],
+      "description": "Business and cultural training for operating across the East African Community — Kenya, Tanzania, Uganda, Rwanda, and Burundi.",
+      "learningObjectives": [
+        "Understand EAC common market and regulatory harmonization",
+        "Navigate cultural differences across East African nations",
+        "Build relationships using Swahili business phrases",
+        "Adapt business practices to each country's context"
+      ],
+      "audience": "Professionals operating across East Africa",
+      "prerequisites": [],
+      "assessmentType": "Cultural knowledge quiz",
+      "certification": false,
+      "countries": ["Kenya", "Tanzania", "Uganda", "Rwanda"]
+    },
+    {
+      "id": "af-005",
+      "title": "Africa Anti-Corruption & Governance",
+      "category": "compliance",
+      "level": "Intermediate",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "French", "Swahili"],
+      "description": "Anti-bribery and corruption compliance for African operations, covering national laws, AU anti-corruption frameworks, and high-risk sector practices.",
+      "learningObjectives": [
+        "Identify bribery and corruption risks specific to African markets",
+        "Apply AU Convention on Preventing and Combating Corruption principles",
+        "Manage facilitation payments and agent relationships",
+        "Report corruption concerns safely"
+      ],
+      "audience": "All employees in African operations",
+      "prerequisites": [],
+      "assessmentType": "Scenario-based assessment",
+      "certification": true,
+      "countries": ["All African countries"]
+    },
+    {
+      "id": "af-006",
+      "title": "Mobile Money & Fintech in Africa",
+      "category": "digital",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Swahili", "French"],
+      "description": "Understanding Africa's mobile money revolution and fintech ecosystem — M-Pesa, MTN Mobile Money, and how financial inclusion drives economic opportunity.",
+      "learningObjectives": [
+        "Understand the mobile money ecosystem in Sub-Saharan Africa",
+        "Leverage mobile financial platforms in business operations",
+        "Apply AML/KYC in mobile money contexts",
+        "Identify fintech innovation opportunities in African markets"
+      ],
+      "audience": "Finance, technology, and business development teams",
+      "prerequisites": [],
+      "assessmentType": "Case study analysis",
+      "certification": false,
+      "countries": ["Kenya", "Tanzania", "Uganda", "Ghana", "Nigeria", "South Africa"]
+    },
+    {
+      "id": "af-007",
+      "title": "French West Africa Business Culture",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "French"],
+      "description": "Cultural intelligence for doing business in Francophone West Africa — Côte d'Ivoire, Senegal, Cameroon, Mali, and Burkina Faso.",
+      "learningObjectives": [
+        "Navigate French colonial influence on West African business culture",
+        "Build relationships with French-speaking West African stakeholders",
+        "Understand OHADA legal system for business operations",
+        "Adapt communication to Francophone African context"
+      ],
+      "audience": "Professionals engaging with Francophone West Africa",
+      "prerequisites": [],
+      "assessmentType": "Cultural quiz",
+      "certification": false,
+      "countries": ["Côte d'Ivoire", "Senegal", "Cameroon", "Mali"]
+    },
+    {
+      "id": "af-008",
+      "title": "Health & Safety in African Operations",
+      "category": "health-safety",
+      "level": "Foundational",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "French", "Swahili"],
+      "description": "Workplace health and safety training adapted for African operating environments, including field operations, construction, and high-risk industries.",
+      "learningObjectives": [
+        "Apply health and safety standards in challenging African operating environments",
+        "Manage tropical disease and travel health risks",
+        "Implement safety protocols in remote and field operations",
+        "Address mental health challenges in isolated work locations"
+      ],
+      "audience": "All employees in African operations, especially field staff",
+      "prerequisites": [],
+      "assessmentType": "Safety knowledge test",
+      "certification": true,
+      "countries": ["All African countries"]
+    },
+    {
+      "id": "af-009",
+      "title": "Gender Equity & Women in African Leadership",
+      "category": "dei",
+      "level": "Intermediate",
+      "duration": "3 hours",
+      "format": ["eLearning", "Workshop"],
+      "languages": ["English", "French", "Swahili"],
+      "description": "Advancing gender equity in African workplaces, addressing patriarchal norms, women's economic empowerment, and creating inclusive leadership pipelines.",
+      "learningObjectives": [
+        "Understand barriers to women's advancement in African workplaces",
+        "Apply gender lens to recruitment, promotion, and pay equity",
+        "Create mentoring and sponsorship programs for women leaders",
+        "Engage male allies in gender equity efforts"
+      ],
+      "audience": "All employees; especially managers and HR",
+      "prerequisites": [],
+      "assessmentType": "Reflection and action plan",
+      "certification": false,
+      "countries": ["All African countries"]
+    },
+    {
+      "id": "af-010",
+      "title": "Egypt Business Culture & Arabic Essentials",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Arabic"],
+      "description": "Business culture and basic Arabic for professionals engaging with Egypt's large and strategically important North African economy.",
+      "learningObjectives": [
+        "Navigate Egyptian business hierarchy and relationship norms",
+        "Use basic business Arabic phrases and greetings",
+        "Understand the role of personal connections (wasta) in Egyptian business",
+        "Adapt to Egyptian negotiation and decision-making styles"
+      ],
+      "audience": "Professionals engaging with Egypt",
+      "prerequisites": [],
+      "assessmentType": "Cultural knowledge quiz",
+      "certification": false,
+      "countries": ["Egypt"]
+    },
+    {
+      "id": "af-011",
+      "title": "Africa Digital Skills Bootcamp",
+      "category": "digital",
+      "level": "Foundational",
+      "duration": "8 hours",
+      "format": ["eLearning", "Workshop"],
+      "languages": ["English", "French", "Swahili"],
+      "description": "Building foundational digital skills to support Africa's rapidly growing digital economy — cloud tools, digital collaboration, and data literacy.",
+      "learningObjectives": [
+        "Use cloud-based productivity tools effectively",
+        "Apply data literacy skills for business decision-making",
+        "Navigate digital collaboration in low-bandwidth environments",
+        "Build digital content for African audiences"
+      ],
+      "audience": "All employees",
+      "prerequisites": [],
+      "assessmentType": "Digital skills assessment",
+      "certification": true,
+      "countries": ["All African countries"]
+    },
+    {
+      "id": "af-012",
+      "title": "Ghana & West Africa Business",
+      "category": "cultural",
+      "level": "Foundational",
+      "duration": "2.5 hours",
+      "format": ["eLearning"],
+      "languages": ["English"],
+      "description": "Business insights for Ghana and anglophone West Africa, covering relationship culture, chieftaincy protocols, and Ghana's growing economic significance.",
+      "learningObjectives": [
+        "Understand Ghanaian business relationship norms and hierarchy",
+        "Navigate chieftaincy and traditional authority in business contexts",
+        "Engage with Ghana's thriving entrepreneurial ecosystem",
+        "Build trust with West African partners and clients"
+      ],
+      "audience": "Professionals engaging with Ghana and West Africa",
+      "prerequisites": [],
+      "assessmentType": "Cultural quiz",
+      "certification": false,
+      "countries": ["Ghana", "Nigeria", "Sierra Leone", "Liberia"]
+    },
+    {
+      "id": "af-013",
+      "title": "Rwanda's Vision 2050 & Business Opportunity",
+      "category": "finance",
+      "level": "Intermediate",
+      "duration": "3 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "French"],
+      "description": "Understanding Rwanda's remarkable development trajectory, Vision 2050 objectives, and the business opportunities in Africa's fastest-reforming economy.",
+      "learningObjectives": [
+        "Understand Rwanda's Vision 2050 strategic objectives",
+        "Identify business opportunities in Rwanda's priority sectors",
+        "Navigate Rwanda's ease-of-doing-business environment",
+        "Understand Rwanda's regional hub strategy in East Africa"
+      ],
+      "audience": "Business development and strategy teams",
+      "prerequisites": [],
+      "assessmentType": "Market analysis quiz",
+      "certification": false,
+      "countries": ["Rwanda"]
+    },
+    {
+      "id": "af-014",
+      "title": "Sustainable Development & AfCFTA",
+      "category": "compliance",
+      "level": "Intermediate",
+      "duration": "4 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "French"],
+      "description": "Africa Continental Free Trade Area (AfCFTA) business implications and sustainable development opportunities across the African continent.",
+      "learningObjectives": [
+        "Understand AfCFTA trade rules and tariff elimination schedules",
+        "Identify cross-border business opportunities under AfCFTA",
+        "Navigate rules of origin requirements",
+        "Align operations with AU Agenda 2063 sustainability goals"
+      ],
+      "audience": "Trade, supply chain, and business development teams",
+      "prerequisites": [],
+      "assessmentType": "Trade compliance assessment",
+      "certification": false,
+      "countries": ["All African countries"]
+    },
+    {
+      "id": "af-015",
+      "title": "POPIA Data Protection (South Africa)",
+      "category": "compliance",
+      "level": "Foundational",
+      "duration": "2.5 hours",
+      "format": ["eLearning"],
+      "languages": ["English", "Afrikaans"],
+      "description": "Protection of Personal Information Act (POPIA) compliance training for South African operations, covering the eight conditions for lawful processing.",
+      "learningObjectives": [
+        "Apply POPIA's eight conditions for lawful processing",
+        "Handle data subject requests within prescribed timeframes",
+        "Manage Information Officers' responsibilities",
+        "Report data breaches to the Information Regulator"
+      ],
+      "audience": "All South Africa-based employees",
+      "prerequisites": [],
+      "assessmentType": "Regulatory compliance test",
+      "certification": true,
+      "countries": ["South Africa"]
+    }
+  ]
+}

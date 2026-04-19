@@ -1,0 +1,78 @@
+{
+  "platform": "TigyWigy Global L&D Platform",
+  "version": "1.0.0",
+  "lastUpdated": "2026-04-19",
+  "totalModules": 120,
+  "totalRegions": 7,
+  "totalLanguages": 24,
+  "regions": [
+    {
+      "id": "north-america",
+      "name": "North America",
+      "countries": ["United States", "Canada", "Mexico"],
+      "primaryLanguages": ["English", "French", "Spanish"],
+      "moduleCount": 18,
+      "dataFile": "regions/north-america.json"
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "countries": ["Brazil", "Argentina", "Colombia", "Chile", "Peru", "Venezuela", "Ecuador", "Bolivia", "Paraguay", "Uruguay"],
+      "primaryLanguages": ["Portuguese", "Spanish"],
+      "moduleCount": 16,
+      "dataFile": "regions/south-america.json"
+    },
+    {
+      "id": "europe",
+      "name": "Europe",
+      "countries": ["United Kingdom", "Germany", "France", "Spain", "Italy", "Netherlands", "Sweden", "Poland", "Switzerland", "Belgium", "Portugal", "Denmark", "Finland", "Norway", "Austria"],
+      "primaryLanguages": ["English", "German", "French", "Spanish", "Italian", "Dutch"],
+      "moduleCount": 20,
+      "dataFile": "regions/europe.json"
+    },
+    {
+      "id": "africa",
+      "name": "Africa",
+      "countries": ["South Africa", "Nigeria", "Kenya", "Ghana", "Egypt", "Ethiopia", "Morocco", "Tanzania", "Uganda", "Rwanda"],
+      "primaryLanguages": ["English", "French", "Arabic", "Swahili", "Afrikaans"],
+      "moduleCount": 15,
+      "dataFile": "regions/africa.json"
+    },
+    {
+      "id": "middle-east",
+      "name": "Middle East",
+      "countries": ["UAE", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain", "Oman", "Jordan", "Lebanon", "Israel", "Turkey"],
+      "primaryLanguages": ["Arabic", "English", "Hebrew", "Turkish"],
+      "moduleCount": 14,
+      "dataFile": "regions/middle-east.json"
+    },
+    {
+      "id": "asia-pacific",
+      "name": "Asia Pacific",
+      "countries": ["China", "Japan", "India", "Australia", "South Korea", "Singapore", "Malaysia", "Indonesia", "Thailand", "Philippines", "Vietnam", "New Zealand", "Hong Kong", "Taiwan"],
+      "primaryLanguages": ["Mandarin", "Japanese", "Hindi", "English", "Korean", "Malay", "Bahasa Indonesia"],
+      "moduleCount": 22,
+      "dataFile": "regions/asia-pacific.json"
+    },
+    {
+      "id": "global",
+      "name": "Global / Universal",
+      "countries": ["All Regions"],
+      "primaryLanguages": ["English"],
+      "moduleCount": 15,
+      "dataFile": "regions/global.json"
+    }
+  ],
+  "categories": [
+    { "id": "leadership", "name": "Leadership Development", "icon": "star", "color": "#4F46E5" },
+    { "id": "technical", "name": "Technical Skills", "icon": "code", "color": "#0891B2" },
+    { "id": "compliance", "name": "Compliance & Ethics", "icon": "shield", "color": "#DC2626" },
+    { "id": "dei", "name": "Diversity, Equity & Inclusion", "icon": "users", "color": "#7C3AED" },
+    { "id": "digital", "name": "Digital Transformation", "icon": "monitor", "color": "#059669" },
+    { "id": "communication", "name": "Communication & Soft Skills", "icon": "message-circle", "color": "#D97706" },
+    { "id": "health-safety", "name": "Health, Safety & Wellbeing", "icon": "heart", "color": "#E11D48" },
+    { "id": "cultural", "name": "Cultural Intelligence", "icon": "globe", "color": "#0284C7" },
+    { "id": "sales", "name": "Sales & Customer Excellence", "icon": "trending-up", "color": "#16A34A" },
+    { "id": "finance", "name": "Finance & Business Acumen", "icon": "dollar-sign", "color": "#CA8A04" }
+  ]
+}
