@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TigyWigy Coffee — Design II</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #F2EDE6;
+      --sand:     #E8DDD0;
+      --ink:      #1C1410;
+      --rust:     #B94A2C;
+      --terracota:#D4623A;
+      --clay:     #C8845A;
+      --warm-wht: #FBF7F2;
+      --accent:   #B94A2C;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+    }
+
+    /* ── Grid layout ── */
+    .page {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+
+    /* ── Left panel ── */
+    .left {
+      background: var(--ink);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 3rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* big circle decoration */
+    .left::before {
+      content: '';
+      position: absolute;
+      width: 500px; height: 500px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.06);
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .left::after {
+      content: '';
+      position: absolute;
+      width: 320px; height: 320px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.04);
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .left-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      position: relative;
+      z-index: 1;
+    }
+
+    .logo-mark {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      color: var(--warm-wht);
+    }
+    .logo-mark span { color: var(--terracota); }
+
+    .year-badge {
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      color: rgba(255,255,255,0.35);
+      text-transform: uppercase;
+      border: 1px solid rgba(255,255,255,0.12);
+      padding: 0.3rem 0.7rem;
+      border-radius: 2px;
+    }
+
+    /* Cup scene — centered in left panel */
+    .cup-center {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+    }
+
+    /* Top-down cup view */
+    .cup-topdown {
+      width: clamp(200px, 30vw, 280px);
+      filter: drop-shadow(0 30px 60px rgba(0,0,0,0.7))
+              drop-shadow(0 8px 16px rgba(185,74,44,0.2));
+      animation: float 4s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50%       { transform: translateY(-10px); }
+    }
+
+    .left-bottom {
+      position: relative;
+      z-index: 1;
+    }
+
+    .left-quote {
+      font-size: 0.72rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.3);
+      line-height: 1.8;
+    }
+
+    /* ── Right panel ── */
+    .right {
+      background: var(--bg);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 4rem 3.5rem;
+      position: relative;
+    }
+
+    .right::before {
+      content: '';
+      position: absolute;
+      top: 0; right: 0;
+      width: 1px; height: 100%;
+      background: linear-gradient(to bottom, transparent, var(--clay), transparent);
+      opacity: 0.3;
+    }
+
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      margin-bottom: 1.2rem;
+    }
+    .eyebrow-line {
+      width: 30px; height: 1px;
+      background: var(--rust);
+    }
+    .eyebrow-text {
+      font-size: 0.68rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--rust);
+    }
+
+    .headline {
+      font-size: clamp(3rem, 5vw, 5.5rem);
+      font-weight: 800;
+      line-height: 0.92;
+      letter-spacing: -0.03em;
+      color: var(--ink);
+      margin-bottom: 1.8rem;
+    }
+    .headline em {
+      font-style: italic;
+      font-weight: 300;
+      color: var(--clay);
+    }
+
+    .body-text {
+      font-size: 0.9rem;
+      line-height: 1.75;
+      color: rgba(28,20,16,0.6);
+      max-width: 340px;
+      margin-bottom: 2.5rem;
+    }
+
+    /* Stats row */
+    .stats {
+      display: flex;
+      gap: 2.5rem;
+      margin-bottom: 2.8rem;
+      padding-bottom: 2.8rem;
+      border-bottom: 1px solid rgba(28,20,16,0.1);
+    }
+    .stat-num {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--ink);
+      line-height: 1;
+    }
+    .stat-num sup {
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: var(--rust);
+    }
+    .stat-label {
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(28,20,16,0.45);
+      margin-top: 0.25rem;
+    }
+
+    /* Buttons */
+    .actions { display: flex; gap: 1rem; align-items: center; }
+
+    .btn-primary {
+      display: inline-block;
+      padding: 0.9rem 2.2rem;
+      background: var(--rust);
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: background 0.25s;
+    }
+    .btn-primary:hover { background: var(--terracota); }
+
+    .btn-ghost {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--ink);
+      text-decoration: none;
+      opacity: 0.55;
+      transition: opacity 0.2s;
+    }
+    .btn-ghost:hover { opacity: 1; }
+    .btn-ghost-arrow { font-size: 1rem; }
+
+    /* Flavor tags */
+    .flavors {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 2.5rem;
+    }
+    .flavor-tag {
+      font-size: 0.65rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 0.35rem 0.8rem;
+      border-radius: 100px;
+      background: var(--sand);
+      color: rgba(28,20,16,0.6);
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 700px) {
+      .page { grid-template-columns: 1fr; grid-template-rows: auto auto; }
+      .left  { min-height: 60vw; padding: 2rem; }
+      .right { padding: 2.5rem 2rem; }
+      .cup-topdown { width: 160px; }
+      .headline { font-size: 2.8rem; }
+      .stats { gap: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<main class="page">
+
+  <!-- ── LEFT ── -->
+  <section class="left">
+    <div class="left-top">
+      <div class="logo-mark">TIGY<span>WIGY</span></div>
+      <div class="year-badge">Est. 2026</div>
+    </div>
+
+    <div class="cup-center">
+      <svg class="cup-topdown" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg"
+           role="img" aria-label="Top-down view of a TigyWigy coffee cup with latte art">
+        <defs>
+          <!-- Outer cup ring -->
+          <radialGradient id="cupRing" cx="50%" cy="50%" r="50%">
+            <stop offset="70%"  stop-color="#4A2E1A"/>
+            <stop offset="85%"  stop-color="#6B4020"/>
+            <stop offset="95%"  stop-color="#8B5A2B"/>
+            <stop offset="100%" stop-color="#A06030"/>
+          </radialGradient>
+
+          <!-- Coffee surface -->
+          <radialGradient id="coffeeSurface" cx="45%" cy="42%" r="55%">
+            <stop offset="0%"  stop-color="#4A2A10"/>
+            <stop offset="100%" stop-color="#1C0E04"/>
+          </radialGradient>
+
+          <!-- Foam -->
+          <radialGradient id="foam2" cx="48%" cy="44%" r="52%">
+            <stop offset="0%"  stop-color="#FFFAF4"/>
+            <stop offset="70%" stop-color="#F5E6D0"/>
+            <stop offset="100%" stop-color="#DEB888"/>
+          </radialGradient>
+
+          <!-- Latte art brown -->
+          <linearGradient id="latteBrown" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%"  stop-color="#C07B3A"/>
+            <stop offset="100%" stop-color="#8B4513"/>
+          </linearGradient>
+
+          <!-- Highlight glare -->
+          <radialGradient id="glare" cx="35%" cy="30%" r="35%">
+            <stop offset="0%"  stop-color="rgba(255,250,245,0.22)"/>
+            <stop offset="100%" stop-color="rgba(255,250,245,0)"/>
+          </radialGradient>
+        </defs>
+
+        <!-- Outer ceramic rim -->
+        <circle cx="140" cy="140" r="136" fill="url(#cupRing)"/>
+
+        <!-- Inner cup wall -->
+        <circle cx="140" cy="140" r="118" fill="#2C1A0E"/>
+
+        <!-- Coffee surface -->
+        <circle cx="140" cy="140" r="108" fill="url(#coffeeSurface)"/>
+
+        <!-- Foam circle -->
+        <circle cx="140" cy="140" r="100" fill="url(#foam2)"/>
+
+        <!-- Latte art — tulip / heart pattern -->
+        <!-- Outer heart base -->
+        <path d="M 140 178
+                 C 120 168, 92 152, 92 132
+                 C 92 118, 104 110, 118 114
+                 C 126 116, 134 124, 140 132
+                 C 146 124, 154 116, 162 114
+                 C 176 110, 188 118, 188 132
+                 C 188 152, 160 168, 140 178 Z"
+              fill="url(#latteBrown)" opacity="0.82"/>
+
+        <!-- Second petal layer -->
+        <path d="M 140 166
+                 C 124 158, 104 146, 104 130
+                 C 104 120, 112 114, 122 117
+                 C 130 119, 136 126, 140 132
+                 C 144 126, 150 119, 158 117
+                 C 168 114, 176 120, 176 130
+                 C 176 146, 156 158, 140 166 Z"
+              fill="url(#foam2)" opacity="0.75"/>
+
+        <!-- Third layer -->
+        <path d="M 140 155
+                 C 128 148, 114 140, 114 128
+                 C 114 120, 121 115, 130 118
+                 C 135 120, 138 126, 140 130
+                 C 142 126, 145 120, 150 118
+                 C 159 115, 166 120, 166 128
+                 C 166 140, 152 148, 140 155 Z"
+              fill="url(#latteBrown)" opacity="0.7"/>
+
+        <!-- Core dot -->
+        <circle cx="140" cy="138" r="10" fill="url(#foam2)" opacity="0.85"/>
+
+        <!-- Stem line -->
+        <path d="M 140 178 L 140 195"
+              stroke="url(#latteBrown)" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+        <!-- Stem flare -->
+        <path d="M 132 194 Q 140 200 148 194"
+              stroke="url(#latteBrown)" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+        <!-- Foam concentric rings (subtle) -->
+        <circle cx="140" cy="140" r="92"  fill="none" stroke="rgba(192,123,58,0.18)" stroke-width="1.2"/>
+        <circle cx="140" cy="140" r="80"  fill="none" stroke="rgba(192,123,58,0.14)" stroke-width="1"/>
+        <circle cx="140" cy="140" r="66"  fill="none" stroke="rgba(192,123,58,0.10)" stroke-width="0.8"/>
+
+        <!-- Glare highlight -->
+        <circle cx="140" cy="140" r="100" fill="url(#glare)"/>
+
+        <!-- Rim shine -->
+        <path d="M 60 90 A 136 136 0 0 1 180 20"
+              fill="none" stroke="rgba(255,230,180,0.15)" stroke-width="8" stroke-linecap="round"/>
+      </svg>
+    </div>
+
+    <div class="left-bottom">
+      <p class="left-quote">
+        Single origin &nbsp;/&nbsp; Slow roasted<br/>
+        Artisan crafted &nbsp;/&nbsp; Always fresh
+      </p>
+    </div>
+  </section>
+
+  <!-- ── RIGHT ── -->
+  <section class="right">
+
+    <div class="eyebrow">
+      <div class="eyebrow-line"></div>
+      <span class="eyebrow-text">New Collection · 2026</span>
+    </div>
+
+    <h1 class="headline">
+      Bold.<br/>
+      <em>Beautiful.</em><br/>
+      Brewed.
+    </h1>
+
+    <p class="body-text">
+      TigyWigy is born from a passion for the perfect cup —
+      sourced from micro-lots, roasted in small batches,
+      and served with intention. Every cup is a ritual.
+    </p>
+
+    <div class="stats">
+      <div>
+        <div class="stat-num">12<sup>+</sup></div>
+        <div class="stat-label">Origins</div>
+      </div>
+      <div>
+        <div class="stat-num">48<sup>h</sup></div>
+        <div class="stat-label">Rest time</div>
+      </div>
+      <div>
+        <div class="stat-num">94<sup>°</sup></div>
+        <div class="stat-label">Brew temp</div>
+      </div>
+    </div>
+
+    <div class="actions">
+      <a class="btn-primary" href="#">Order Now</a>
+      <a class="btn-ghost" href="#">
+        Our Story <span class="btn-ghost-arrow">&#8594;</span>
+      </a>
+    </div>
+
+    <div class="flavors">
+      <span class="flavor-tag">Dark Chocolate</span>
+      <span class="flavor-tag">Toasted Hazelnut</span>
+      <span class="flavor-tag">Brown Sugar</span>
+      <span class="flavor-tag">Citrus Finish</span>
+      <span class="flavor-tag">Caramel</span>
+    </div>
+
+  </section>
+
+</main>
+
+</body>
+</html>
