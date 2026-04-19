@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TigyWigy Coffee</title>
+  <style>
+    /* ── Reset & Base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --espresso:   #2C1A0E;
+      --roast:      #5C3317;
+      --caramel:    #C07B3A;
+      --cream:      #F5E6D0;
+      --foam:       #FFF8F0;
+      --steam:      rgba(255,248,240,0.7);
+      --gold:       #D4A854;
+      --text-dark:  #1A0F06;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Georgia', serif;
+      background: var(--espresso);
+      overflow-x: hidden;
+    }
+
+    /* ── Background texture ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at 20% 50%, #3d2010 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 20%, #4a2a12 0%, transparent 55%),
+        radial-gradient(ellipse at 60% 80%, #1a0f06 0%, transparent 50%);
+      pointer-events: none;
+    }
+
+    /* ── Layout ── */
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      position: relative;
+    }
+
+    /* ── Brand header ── */
+    .brand {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .brand-tag {
+      font-size: 0.75rem;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      color: var(--gold);
+      opacity: 0.8;
+      margin-bottom: 0.5rem;
+    }
+
+    .brand-name {
+      font-size: clamp(2.8rem, 8vw, 5.5rem);
+      font-weight: 400;
+      color: var(--cream);
+      letter-spacing: 0.12em;
+      text-shadow: 0 2px 20px rgba(212,168,84,0.3);
+      line-height: 1;
+    }
+
+    .brand-name span {
+      color: var(--gold);
+    }
+
+    .brand-sub {
+      font-size: 0.85rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--caramel);
+      margin-top: 0.6rem;
+    }
+
+    /* ── Cup scene ── */
+    .scene {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+
+    /* Steam */
+    .steam-wrap {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      height: 70px;
+      margin-bottom: -6px;
+    }
+
+    .steam {
+      width: 6px;
+      border-radius: 3px;
+      background: linear-gradient(to top, transparent, var(--steam));
+      animation: rise 2.2s ease-in-out infinite;
+      transform-origin: bottom center;
+    }
+    .steam:nth-child(1) { height: 55px; animation-delay: 0s;    animation-duration: 2.0s; }
+    .steam:nth-child(2) { height: 70px; animation-delay: 0.4s;  animation-duration: 2.4s; }
+    .steam:nth-child(3) { height: 48px; animation-delay: 0.8s;  animation-duration: 1.9s; }
+    .steam:nth-child(4) { height: 60px; animation-delay: 1.2s;  animation-duration: 2.2s; }
+    .steam:nth-child(5) { height: 44px; animation-delay: 1.6s;  animation-duration: 2.1s; }
+
+    @keyframes rise {
+      0%   { opacity: 0;   transform: scaleX(1)   translateY(0);  }
+      20%  { opacity: 0.9; }
+      60%  { opacity: 0.5; transform: scaleX(1.4) translateY(-18px); }
+      100% { opacity: 0;   transform: scaleX(0.8) translateY(-36px); }
+    }
+
+    /* Cup SVG */
+    .cup-svg {
+      width: clamp(200px, 50vw, 340px);
+      filter: drop-shadow(0 20px 40px rgba(0,0,0,0.6))
+              drop-shadow(0 4px 12px rgba(192,123,58,0.25));
+    }
+
+    /* Saucer */
+    .saucer {
+      width: clamp(240px, 62vw, 420px);
+      height: 24px;
+      background: linear-gradient(135deg, #7a4a20 0%, #a06030 40%, #7a4a20 100%);
+      border-radius: 50%;
+      margin-top: -8px;
+      box-shadow:
+        0 6px 18px rgba(0,0,0,0.5),
+        inset 0 2px 4px rgba(255,220,150,0.15),
+        inset 0 -2px 4px rgba(0,0,0,0.3);
+      position: relative;
+    }
+    .saucer::after {
+      content: '';
+      position: absolute;
+      top: 4px; left: 50%;
+      transform: translateX(-50%);
+      width: 60%;
+      height: 8px;
+      border-radius: 50%;
+      background: rgba(255,220,150,0.08);
+    }
+
+    /* ── Tagline ── */
+    .tagline {
+      margin-top: 2.8rem;
+      text-align: center;
+    }
+
+    .tagline-text {
+      font-size: clamp(1rem, 3vw, 1.4rem);
+      color: var(--cream);
+      font-style: italic;
+      opacity: 0.9;
+      letter-spacing: 0.05em;
+    }
+
+    .tagline-divider {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin: 1rem auto;
+      width: fit-content;
+    }
+
+    .tagline-divider::before,
+    .tagline-divider::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold));
+    }
+    .tagline-divider::after {
+      background: linear-gradient(to left, transparent, var(--gold));
+    }
+
+    .tagline-icon { color: var(--gold); font-size: 1rem; }
+
+    .tagline-desc {
+      font-size: 0.82rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--caramel);
+      margin-top: 0.4rem;
+    }
+
+    /* ── CTA button ── */
+    .cta {
+      margin-top: 2.4rem;
+      display: inline-block;
+      padding: 0.85rem 2.8rem;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      font-size: 0.78rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 2px;
+      transition: background 0.3s, color 0.3s;
+      cursor: pointer;
+      background: transparent;
+    }
+    .cta:hover {
+      background: var(--gold);
+      color: var(--espresso);
+    }
+
+    /* ── Coffee beans decoration ── */
+    .beans {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .bean {
+      position: absolute;
+      width: 14px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--roast);
+      opacity: 0.12;
+      transform: rotate(var(--r));
+    }
+    .bean::after {
+      content: '';
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%) rotate(90deg);
+      width: 2px;
+      height: 60%;
+      background: rgba(0,0,0,0.3);
+      border-radius: 1px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- scattered bean decorations -->
+  <div class="beans" aria-hidden="true">
+    <div class="bean" style="top:8%;  left:5%;  --r:25deg;  width:18px; height:28px;"></div>
+    <div class="bean" style="top:15%; left:88%; --r:-40deg; width:12px; height:20px;"></div>
+    <div class="bean" style="top:72%; left:7%;  --r:60deg;  width:16px; height:26px;"></div>
+    <div class="bean" style="top:80%; left:91%; --r:-15deg; width:20px; height:32px;"></div>
+    <div class="bean" style="top:45%; left:3%;  --r:80deg;  width:10px; height:16px;"></div>
+    <div class="bean" style="top:30%; left:93%; --r:10deg;  width:14px; height:22px;"></div>
+    <div class="bean" style="top:90%; left:40%; --r:-55deg; width:12px; height:18px;"></div>
+    <div class="bean" style="top:5%;  left:55%; --r:35deg;  width:16px; height:24px;"></div>
+  </div>
+
+  <main class="page">
+
+    <!-- Brand -->
+    <header class="brand">
+      <p class="brand-tag">Artisan Coffee Roasters</p>
+      <h1 class="brand-name">Tigy<span>Wigy</span></h1>
+      <p class="brand-sub">Est. 2026 &nbsp;·&nbsp; Small Batch &nbsp;·&nbsp; Single Origin</p>
+    </header>
+
+    <!-- Cup -->
+    <div class="scene">
+      <div class="steam-wrap" aria-hidden="true">
+        <div class="steam"></div>
+        <div class="steam"></div>
+        <div class="steam"></div>
+        <div class="steam"></div>
+        <div class="steam"></div>
+      </div>
+
+      <svg class="cup-svg" viewBox="0 0 300 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TigyWigy coffee cup">
+        <defs>
+          <!-- Cup body gradient -->
+          <linearGradient id="cupGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%"   stop-color="#8B5A2B"/>
+            <stop offset="25%"  stop-color="#C07B3A"/>
+            <stop offset="55%"  stop-color="#D4924A"/>
+            <stop offset="80%"  stop-color="#A06030"/>
+            <stop offset="100%" stop-color="#6B4020"/>
+          </linearGradient>
+
+          <!-- Coffee liquid gradient -->
+          <linearGradient id="coffeeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%"  stop-color="#3D1C08"/>
+            <stop offset="100%" stop-color="#1A0A04"/>
+          </linearGradient>
+
+          <!-- Foam gradient -->
+          <radialGradient id="foamGrad" cx="50%" cy="40%" r="55%">
+            <stop offset="0%"   stop-color="#FFF8F0"/>
+            <stop offset="60%"  stop-color="#F5E6D0"/>
+            <stop offset="100%" stop-color="#E8C898"/>
+          </radialGradient>
+
+          <!-- Latte art gradient -->
+          <linearGradient id="artGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%"  stop-color="#C07B3A" stop-opacity="0.9"/>
+            <stop offset="100%" stop-color="#8B5A2B" stop-opacity="0.7"/>
+          </linearGradient>
+
+          <!-- Handle gradient -->
+          <linearGradient id="handleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%"   stop-color="#A06030"/>
+            <stop offset="50%"  stop-color="#C07B3A"/>
+            <stop offset="100%" stop-color="#8B5A2B"/>
+          </linearGradient>
+
+          <!-- Rim highlight -->
+          <linearGradient id="rimGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%"   stop-color="#E8C898" stop-opacity="0.4"/>
+            <stop offset="40%"  stop-color="#FFF8F0" stop-opacity="0.8"/>
+            <stop offset="100%" stop-color="#C09060" stop-opacity="0.3"/>
+          </linearGradient>
+
+          <!-- Cup shadow -->
+          <linearGradient id="shadowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%"  stop-color="#1A0A04" stop-opacity="0.4"/>
+            <stop offset="100%" stop-color="#1A0A04" stop-opacity="0"/>
+          </linearGradient>
+
+          <clipPath id="cupClip">
+            <path d="M 60 90 L 40 258 Q 40 268 50 268 L 250 268 Q 260 268 260 258 L 240 90 Z"/>
+          </clipPath>
+        </defs>
+
+        <!-- Handle shadow -->
+        <path d="M 248 148 Q 290 148 292 188 Q 292 228 250 228"
+              fill="none" stroke="rgba(0,0,0,0.25)" stroke-width="18" stroke-linecap="round"/>
+
+        <!-- Handle -->
+        <path d="M 248 148 Q 288 148 290 188 Q 290 226 250 226"
+              fill="none" stroke="url(#handleGrad)" stroke-width="14" stroke-linecap="round"/>
+        <!-- Handle inner highlight -->
+        <path d="M 252 155 Q 279 155 281 188 Q 281 218 252 218"
+              fill="none" stroke="rgba(255,220,150,0.18)" stroke-width="4" stroke-linecap="round"/>
+
+        <!-- Cup body -->
+        <path d="M 60 90 L 40 258 Q 40 268 50 268 L 250 268 Q 260 268 260 258 L 240 90 Z"
+              fill="url(#cupGrad)"/>
+
+        <!-- Coffee liquid (inside cup) -->
+        <g clip-path="url(#cupClip)">
+          <!-- Dark coffee base -->
+          <rect x="40" y="125" width="220" height="145" fill="url(#coffeeGrad)"/>
+
+          <!-- Foam layer -->
+          <ellipse cx="150" cy="126" rx="88" ry="18" fill="url(#foamGrad)"/>
+
+          <!-- Latte art — leaf/rosetta design -->
+          <!-- Central stem -->
+          <path d="M 150 138 Q 150 118 150 108"
+                fill="none" stroke="url(#artGrad)" stroke-width="3" stroke-linecap="round"/>
+
+          <!-- Leaf petals -->
+          <ellipse cx="150" cy="121" rx="18" ry="7" fill="url(#artGrad)" opacity="0.85" transform="rotate(-5 150 121)"/>
+          <ellipse cx="148" cy="115" rx="14" ry="5.5" fill="url(#artGrad)" opacity="0.75" transform="rotate(5 148 115)"/>
+          <ellipse cx="151" cy="110" rx="10" ry="4" fill="url(#artGrad)" opacity="0.65" transform="rotate(-3 151 110)"/>
+
+          <!-- Ripple rings on foam -->
+          <ellipse cx="150" cy="126" rx="75" ry="14" fill="none"
+                   stroke="rgba(192,123,58,0.25)" stroke-width="1.5"/>
+          <ellipse cx="150" cy="126" rx="58" ry="10" fill="none"
+                   stroke="rgba(192,123,58,0.2)"  stroke-width="1"/>
+          <ellipse cx="150" cy="126" rx="38" ry="6.5" fill="none"
+                   stroke="rgba(192,123,58,0.18)" stroke-width="1"/>
+
+          <!-- Highlight sheen on coffee surface -->
+          <ellipse cx="125" cy="124" rx="18" ry="5" fill="rgba(255,240,210,0.12)" transform="rotate(-10 125 124)"/>
+        </g>
+
+        <!-- Cup rim top ellipse -->
+        <ellipse cx="150" cy="90" rx="91" ry="18"
+                 fill="#A06030" stroke="#C8883A" stroke-width="1.5"/>
+        <ellipse cx="150" cy="90" rx="91" ry="18"
+                 fill="url(#rimGrad)"/>
+
+        <!-- Cup body sheen / left highlight -->
+        <path d="M 68 100 L 53 240"
+              stroke="rgba(255,230,180,0.18)" stroke-width="10" stroke-linecap="round"/>
+
+        <!-- Right shadow on cup -->
+        <path d="M 232 100 L 248 240"
+              stroke="rgba(0,0,0,0.15)" stroke-width="14" stroke-linecap="round"/>
+
+        <!-- Bottom ellipse -->
+        <ellipse cx="150" cy="265" rx="104" ry="10"
+                 fill="#8B5A2B" stroke="#7A4A20" stroke-width="1"/>
+
+        <!-- Brand logo on cup -->
+        <text x="150" y="210" text-anchor="middle"
+              font-family="Georgia, serif"
+              font-size="22" font-weight="400" letter-spacing="3"
+              fill="rgba(255,240,210,0.55)">TW</text>
+
+        <!-- Decorative line under logo -->
+        <line x1="122" y1="218" x2="178" y2="218"
+              stroke="rgba(255,240,210,0.25)" stroke-width="0.8"/>
+      </svg>
+
+      <div class="saucer"></div>
+    </div>
+
+    <!-- Tagline -->
+    <div class="tagline">
+      <p class="tagline-text">"Every sip tells a story."</p>
+      <div class="tagline-divider">
+        <span class="tagline-icon">&#9670;</span>
+      </div>
+      <p class="tagline-desc">Slow roasted &nbsp;·&nbsp; Thoughtfully brewed &nbsp;·&nbsp; Boldly savored</p>
+      <a class="cta" href="#">Discover Our Blends</a>
+    </div>
+
+  </main>
+
+</body>
+</html>
